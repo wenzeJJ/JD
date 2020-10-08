@@ -1,0 +1,223 @@
+/* 头部 */
+.wrapheader {
+  border-bottom: solid 4px gray;
+}
+.wrapheader header {
+  width: 1216px;
+  height: 98px;
+  margin: 0 auto;
+}
+.wrapheader header .Hea1 {
+  float: left;
+  margin-top: 18px;
+}
+.wrapheader header .Hea2 {
+  float: left;
+}
+.wrapheader header .Hea2 h3 {
+  font-size: 28px;
+  margin-top: 45px;
+  margin-left: 28px ;
+  cursor: pointer;
+}
+.wrapheader header .Hea3 {
+  float: right;
+  widows: 180px ;
+  height: 17px;
+  margin-top: 46px ;
+}
+.wrapheader header .Hea3 p {
+  float: left;
+  font-size: 17px;
+  cursor: pointer;
+}
+.wrapheader header .Hea3 p:nth-child(2) {
+  font-size: 17px;
+  color: red;
+}
+/* 注册 */
+section {
+  width: 1216px;
+  height: 838px;
+  border-bottom: 1px gray solid;
+  margin: 0 auto;
+}
+section .dabox {
+  width: 495px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 350px;
+  /* 输入手机号 */
+  /*提示 */
+  /* 验证 */
+  /* 下一步 */
+  /*  企业注册 */
+}
+section .dabox ul {
+  width: 495px;
+  height: 66px;
+}
+section .dabox ul li {
+  float: left;
+}
+section .dabox ul li p {
+  width: 30px ;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  color: grey;
+  text-align: center;
+  line-height: 30px;
+}
+section .dabox ul li h5 {
+  font-size: 14px;
+  margin-top: 18px;
+}
+section .dabox ul li:nth-child(1) p {
+  background-color: green;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 20px;
+}
+section .dabox ul li:nth-child(1) h5 {
+  color: green;
+}
+section .dabox ul li:nth-child(2) {
+  width: 135px;
+  height: 100%;
+}
+section .dabox ul li:nth-child(2) span {
+  float: left;
+  font-size: 20px;
+  margin-left: 12px;
+}
+section .dabox ul li:nth-child(2) .em {
+  font-size: 20px;
+  margin-left: 12px;
+  float: left;
+  margin-top: 5px;
+}
+section .dabox ul li:nth-child(3) p {
+  margin-left: 27px;
+}
+section .dabox ul li:nth-child(4) {
+  width: 135px;
+  height: 100%;
+}
+section .dabox ul li:nth-child(4) span {
+  font-size: 20px;
+  margin-left: 12px;
+  float: left;
+}
+section .dabox ul li:nth-child(4) .em {
+  font-size: 20px;
+  margin-left: 12px;
+  float: left;
+  margin-top: 5px;
+}
+section .dabox ul li:nth-child(5) {
+  float: right;
+}
+section .dabox ul li:nth-child(5) p {
+  margin-left: 12px;
+}
+section .dabox .box1 {
+  width: 100%;
+  height: 60px;
+  border: 1px solid gray;
+  margin-top: 65px;
+}
+section .dabox .box1 p {
+  width: 130px;
+  height: 100%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  float: left;
+  border-right: gray 1px solid;
+}
+section .dabox .box1 input {
+  float: left;
+  width: 363px;
+  height: 60px;
+  outline: none;
+}
+section .dabox .box2 {
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: goldenrod;
+}
+section .dabox .box3 button {
+  width: 100%;
+  height: 63px;
+  outline: none;
+  border: 1px solid gray;
+  font-size: 21px;
+  margin-top: 21px;
+}
+section .dabox .box4 {
+  margin-top: 62px;
+}
+section .dabox .box4 button {
+  width: 100%;
+  height: 65px;
+  outline: none;
+  background-color: red;
+  color: white;
+  font-size: 21px;
+}
+section .dabox .box5 {
+  margin-top: 33px ;
+}
+section .dabox .box5 .box5_1 {
+  float: left;
+  width: 145px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 18px;
+}
+section .dabox .box5 .box5_2 {
+  float: right;
+  width: 150px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 18px;
+}
+/*  底部 */
+footer {
+  width: 1216px;
+  height: 170px;
+  margin: 0 auto;
+}
+footer .Fo {
+  width: 1216px;
+  height: 17px;
+  margin-top: 27px;
+}
+footer .Fo li {
+  height: 17px;
+  float: left;
+}
+footer .Fo li p {
+  float: left;
+  padding: 0 20px;
+  font-size: 16px;
+}
+footer .Fo li:hover p {
+  color: red;
+  cursor: pointer;
+}
+footer .Fo1 {
+  width: 1216px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: gray;
+  font-size: 15px;
+}

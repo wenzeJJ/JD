@@ -1,0 +1,287 @@
+/* 登入页面 头部 */
+header {
+  width: 1216px;
+  height: 98px;
+  margin: 0 auto;
+}
+header .Hea1 {
+  float: left;
+  margin-top: 18px;
+}
+header .Hea2 {
+  float: left;
+}
+header .Hea2 h3 {
+  font-size: 28px;
+  margin-top: 45px;
+  margin-left: 28px ;
+  cursor: pointer;
+}
+header .Hea3 {
+  float: right;
+  widows: 180px ;
+  height: 17px;
+  margin-top: 46px ;
+}
+header .Hea3 p:nth-child(1) {
+  float: left;
+  margin-top: 5px;
+  font-size: 17px;
+  color: red;
+}
+header .Hea3 p {
+  float: left;
+  font-size: 17px;
+  cursor: pointer;
+}
+.wrapYi {
+  background: #fff8f0;
+}
+.wrapYi .Yi {
+  width: 1216px;
+  height: 48px;
+  margin: 0 auto;
+  color: gray;
+  text-align: center;
+  line-height: 48px;
+}
+/*  登入 */
+.wrapDr {
+  background: #e98f37;
+}
+.wrapDr .Dr {
+  width: 1216px;
+  height: 584px;
+  margin: 0 auto;
+  overflow: hidden;
+  /* 扫码  登入*/
+  /*  扫码 */
+  /*   登入  */
+}
+.wrapDr .Dr .Dr_1 img {
+  float: left;
+  margin-top: 74px;
+  margin-left: 150px;
+}
+.wrapDr .Dr .Dr_2 {
+  width: 426px ;
+  height: 526px ;
+  background-color: #ffffff;
+  float: right;
+  margin-top: 12px;
+}
+.wrapDr .Dr .Dr_2 .Dr_2_t1 {
+  width: 426px;
+  height: 50px;
+  background-color: #fff8f0;
+  text-align: center;
+  line-height: 50px;
+  color: gray;
+}
+.wrapDr .Dr .Dr_2_t2 {
+  height: 65px ;
+  width: 426px;
+  border: gray 1px solid;
+}
+.wrapDr .Dr .Dr_2_t2 p {
+  font-size: 23px;
+  font-weight: 900;
+  color: red;
+  float: left;
+  padding: 12px 59px;
+  cursor: pointer;
+}
+.wrapDr .Dr .Dr_2_t2 .p1 {
+  float: left;
+  margin-top: 20px;
+}
+.wrapDr .Dr .Dr_2_t2 span {
+  font-size: 23px;
+  font-weight: 900;
+  float: right;
+  padding: 12px 59px;
+  cursor: pointer;
+}
+.wrapDr .Dr .Dr_2_t3 {
+  width: 426px;
+  height: 408px;
+  /*  display: none; */
+}
+.wrapDr .Dr .Dr_2_t3 .Img {
+  margin-top: 26px ;
+  margin-left: 102px ;
+}
+.wrapDr .Dr .Dr_2_t3 .P1 {
+  font-size: 17px;
+  width: 426px;
+  height: 17px;
+  text-align: center;
+  margin-top: 28px;
+}
+.wrapDr .Dr .Dr_2_t3 .P1 mark {
+  color: red;
+  background-color: white;
+}
+.wrapDr .Dr .Dr_2_t3 ul {
+  width: 426px;
+  height: 33px ;
+  margin-top: 20px;
+}
+.wrapDr .Dr .Dr_2_t3 ul li:nth-child(1) {
+  margin-left: 70px;
+}
+.wrapDr .Dr .Dr_2_t3 ul li {
+  width: 100px;
+  height: 33px ;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  float: left;
+}
+.wrapDr .Dr .Dr_2_t3 .Dr_qq {
+  width: 426px;
+  height: 60px;
+  border-top: 1px solid gray;
+  margin-top: 20px ;
+}
+.wrapDr .Dr .Dr_2_t3 .Dr_qq li:nth-child(3) {
+  margin-left: 110px;
+  color: red;
+  cursor: pointer;
+}
+.wrapDr .Dr .Dr_2_t3 .Dr_qq li {
+  width: 95px;
+  height: 24px;
+  margin-top: 20px;
+  float: left;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+.wrapDr .Dr .Dr_2_t4 {
+  width: 426px;
+  height: 370px;
+  display: none;
+}
+.wrapDr .Dr .Dr_2_t4 .Btn1 {
+  width: 426px;
+  height: 52px;
+  margin-top: 39px;
+}
+.wrapDr .Dr .Dr_2_t4 .Btn1 p {
+  width: 50px;
+  height: 50px;
+  margin-left: 24px;
+  outline: none;
+  border: 1px solid red;
+  float: left;
+  text-align: center;
+  line-height: 52px;
+}
+.wrapDr .Dr .Dr_2_t4 .Btn1 p span {
+  font-size: 20px;
+}
+.wrapDr .Dr .Dr_2_t4 .Btn1 input {
+  float: left;
+  width: 328px;
+  height: 50px;
+  outline: none;
+  border: 1px solid red;
+}
+.wrapDr .Dr .Dr_2_t4 .Btn2 {
+  width: 426px;
+  height: 52px;
+  margin-top: 20px;
+}
+.wrapDr .Dr .Dr_2_t4 .Btn2 p {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: 24px;
+  outline: none;
+  border: 1px solid red;
+  text-align: center;
+  line-height: 52px;
+}
+.wrapDr .Dr .Dr_2_t4 .Btn2 p span {
+  font-size: 20px;
+}
+.wrapDr .Dr .Dr_2_t4 .Btn2 input {
+  float: left;
+  width: 328px;
+  height: 50px;
+  outline: none;
+  border: 1px solid red;
+}
+.wrapDr .Dr .Dr_2_t4 p {
+  width: 380px;
+  height: 70px;
+  margin-left: 24px;
+  text-align: right;
+  line-height: 70px;
+}
+.wrapDr .Dr .Dr_2_t4 button {
+  width: 380px;
+  height: 40px;
+  outline: none;
+  border: 1px solid red;
+  background-color: red;
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+  margin-left: 24px;
+}
+.wrapDr .Dr .Dr_2_t4 .Dr_qq {
+  width: 426px;
+  height: 60px;
+  border-top: 1px solid gray;
+  margin-top: 20px ;
+}
+.wrapDr .Dr .Dr_2_t4 .Dr_qq li:nth-child(3) {
+  margin-left: 110px;
+  color: red;
+  cursor: pointer;
+}
+.wrapDr .Dr .Dr_2_t4 .Dr_qq li {
+  width: 95px;
+  height: 24px;
+  margin-top: 20px;
+  float: left;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+/* footer */
+footer {
+  width: 1216px;
+  height: 170px;
+  margin: 0 auto;
+}
+footer .Fo {
+  width: 1216px;
+  height: 17px;
+  margin-top: 27px;
+}
+footer .Fo li {
+  height: 17px;
+  float: left;
+}
+footer .Fo li p {
+  float: left;
+  padding: 0 20px;
+  font-size: 16px;
+}
+footer .Fo li:hover p {
+  color: red;
+  cursor: pointer;
+}
+footer .Fo1 {
+  width: 1216px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: gray;
+  font-size: 15px;
+}
