@@ -1,0 +1,4358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京东首页</title>
+
+    <script src="../js/jquery-1.11.0.js"></script>
+    <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/resetlihai.css">
+    <link rel="stylesheet" href="../fonts/glyphicons-halflings-regular.svg">
+    <link rel="stylesheet" href="../less/Sy.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/Sy.js"></script>
+  
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="l">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <p>河南</p>
+        </div>
+        <div class="r">
+            <li>
+                <span>你好，请登入</span>
+                <p>免费注册</p>
+
+            </li>|
+
+            <li>我的订单</li>|
+
+            <li>我的京东
+                <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <!-- 二级菜单 -->
+
+                <ul>
+                    <li>
+                        <span>处理订单</span>
+                        <span>消息</span>
+                    </li>
+                    <li>
+                        <p>返修退换</p>
+                        <p>我的回答</p>
+                    </li>
+                    <li>
+                        <p>降价商品</p>
+                        <p>我得关注</p>
+                    </li>
+                    <li>
+                        <p>我得京豆 </p>
+                        <p>我得优惠卷</p>
+                    </li>
+                    <li>
+                        <p>我得白条</p>
+                        <p>我的理财</p>
+                    </li>
+                </ul>
+            </li>|
+
+            <li>京东会员</li>|
+
+            <li>企业采购
+                <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <!-- 二级菜单 -->
+
+                <ul>
+                    <li>
+                        <span>企业购</span>
+                        <span>商用场景管</span>
+                    </li>
+                    <li>
+                        <p>工业品 </p>
+                        <p>丰可多商城</p>
+                    </li>
+                    <li>
+                        <p>礼品卡</p>
+                        <p>微信企业购</p>
+                    </li>
+
+                </ul>
+            </li>|
+
+            <li>客户服务
+                <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <!-- 二级菜单 -->
+                <ul>
+                    <div class="rl1">
+                        <h4>客户</h4>
+
+                        <li>
+                            <p>帮助中心</p>
+                            <p>售后服务</p>
+                        </li>
+                        <li>
+                            <p>在线服务</p>
+                            <p>意见建议</p>
+                        </li>
+                        <li>
+                            <p>电话服务</p>
+                            <p>客服邮箱</p>
+                        </li>
+                        <li>
+                            <p>景荣咨询</p>
+                            <p>全球受客服</p>
+                        </li>
+                        <li>
+                            <p>
+                                企业服务
+                            </p>
+                        </li>
+
+
+                    </div>
+                    <div class="rl2">
+                        <h4>商户</h4>
+
+                        <li>
+                            <p>合作招商</p>
+                            <p>成长中心</p>
+                        </li>
+                        <li>
+                            <p>商家后台</p>
+                            <p>静脉工作台</p>
+                        </li>
+                        <li>
+                            <p>商家帮助</p>
+                            <p>规则平台</p>
+
+                        </li>
+
+
+                    </div>
+
+                </ul>
+            </li>|
+
+            <li>网站导航
+                <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <ul>
+                    <div class="rl3_1">
+                        <h5>特色主题</h5>
+                        <li>
+                            <p>新品首发</p>
+                            <p>京东金融</p>
+                            <p>全球首</p>
+                            <p>国际站</p>
+                        </li>
+                        <li>
+                            <p>新品首发</p>
+                            <p>京东金融</p>
+                            <p>全球首</p>
+                            <p>国际站</p>
+                        </li>
+                        <li>
+                            <p>新品首发</p>
+                            <p>京东金融</p>
+                            <p>全球首</p>
+                            <p>国际站</p>
+                        </li>
+                        <li>
+                            <p>新品首发</p>
+                            <p>京东金融</p>
+                            <p>全球首</p>
+                            <p>国际站</p>
+                        </li>
+                        <li>
+                            <p>新品首发</p>
+                            <p>京东金融</p>
+                            <p>全球首</p>
+
+                        </li>
+                    </div>
+                    <div class="rl3_2"></div>
+                    <div class="rl3_3">
+                        <h5>行业频道</h5>
+                        <li>
+                            <p>手机</p>
+                            <p>只能数码</p>
+                            <p>玩3c</p>
+                        </li>
+                        <li>
+                            <p>手机</p>
+                            <p>只能数码</p>
+                            <p>玩3c</p>
+                        </li>
+                        <li>
+                            <p>手机</p>
+                            <p>只能数码</p>
+                            <p>玩3c</p>
+                        </li>
+                        <li>
+                            <p>手机</p>
+                            <p>只能数码</p>
+                            <p>玩3c</p>
+                        </li>
+                        <li>
+                            <p>手机</p>
+                            <p>只能数码</p>
+                            <p>玩3c</p>
+                        </li>
+                    </div>
+                    <div class="rl3_4"></div>
+                    <div class="rl3_5">
+                        <h5>生活服务</h5>
+                        <li>
+                            <p>京东众筹</p>
+                            <p>白条</p>
+                            <p>京东金融</p>
+                        </li>
+                        <li>
+                            <p>京东众筹</p>
+                            <p>白条</p>
+                            <p>京东金融</p>
+                        </li>
+                        <li>
+                            <p>京东众筹</p>
+                            <p>白条</p>
+                            <p>京东金融</p>
+                        </li>
+                        <li>
+                            <p>京东众筹</p>
+                            <p>白条</p>
+                            <p>京东金融</p>
+                        </li>
+                        <li>
+                            <p>京东众筹</p>
+                            <p>白条</p>
+
+                        </li>
+                    </div>
+                    <div class="rl3_6"></div>
+                    <div class="rl3_7">
+                        <h5>更多精选</h5>
+                        <li>
+                            <p>合作招商</p>
+                            <p>京东通信</p>
+                            <p>京东e卡</p>
+                        </li>
+                        <li>
+                            <p>合作招商</p>
+                            <p>京东通信</p>
+                            <p>京东e卡</p>
+                        </li>
+                        <li>
+                            <p>合作招商</p>
+                            <p>京东通信</p>
+                            <p>京东e卡</p>
+                        </li>
+                        <li>
+                            <p>合作招商</p>
+
+                        </li>
+                    </div>
+                </ul>
+
+            </li>|
+            <li>手机京东</li>
+
+        </div>
+    </header>
+
+    <!-- 搜索栏 -->
+    <div class="SS">
+        <!-- log -->
+        <div class="SS1">
+            <img src="../img/log1.jpg" alt="">
+        </div>
+        <!-- 搜索框 -->
+        <div class="SS2">
+            <div class="SS2_1">
+                <div class="SS2_11">
+                    <input type="text" placeholder="黄金收敛">
+                    <p><span class="glyphicon glyphicon-search"></span></p>
+                </div>
+                <div class="SS2_2">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    <p>我的购物车</p>
+                </div>
+            </div>
+            <div class="SS3">
+                <li>美妆送好礼</li>
+                <li>图书汇聚</li>
+                <li>国庆放假</li>
+                <li>二手手机</li>
+                <li>电脑免息</li>
+                <li>特价冰洗</li>
+                <li>品质内衣</li>
+                <li>oppo手机</li>
+                <li>品质家具</li>
+            </div>
+            <div class="SS4">
+                <li>秒杀</li>
+                <li>优惠卷</li>
+                <li>plus会员</li>
+                <li>品牌山沟</li>
+                <li>拍卖</li>
+                <li>京东家电</li>
+                <li>京东超市</li>
+                <li>京东生鲜</li>
+                <li>京东国际</li>
+                <li>京东金融</li>
+            </div>
+
+        </div>
+
+        <div class="SS5">
+            <img src="../img/Erweima.jpg" alt="">
+        </div>
+
+    </div>
+
+
+    <!-- 导航栏 -->
+    <nav>
+
+        <!-- 左侧 -->
+
+        <div class="navl">
+
+            <div class="navl_1">
+                <p>家用电器
+                    <div class="navl_1_1">
+
+                        <div class="navl_1_2">
+    
+                            <div class="navl_1_2_1">
+                                <li>加点管 ></li>
+                                <li>家电专卖 ></li>
+                                <li>加点服务 ></li>
+                                <li>企业采购 ></li>
+                                <li>商用家电 ></li>
+                                <li>以旧换新 ></li>
+                            </div>
+    
+                            <div class="navl_1_2_2">
+                                <li>电视 ></li>
+                                <span>超薄电视</span>
+                                <span>全面屏木</span>
+                                <span>全面屏木</span>
+                                <span>教育电视</span>
+                                <span>OEED电视</span>
+                                <span>智慧屏</span>
+                                <span>4k超清屏</span>
+                                <span>55英寸</span>
+                                <span>65英寸</span>
+                                <span>电视配件</span>
+    
+                            </div>
+                            <div class="navl_1_2_2">
+                                <li>电视 ></li>
+                                <span>超薄电视</span>
+                                <span>全面屏木</span>
+                                <span>全面屏木</span>
+                                <span>教育电视</span>
+                                <span>OEED电视</span>
+                                <span>智慧屏</span>
+                                <span>4k超清屏</span>
+                                <span>55英寸</span>
+                                <span>65英寸</span>
+                                <span>电视配件</span>
+    
+                            </div>
+                            <div class="navl_1_2_2">
+                                <li>电视 ></li>
+                                <span>超薄电视</span>
+                                <span>全面屏木</span>
+                                <span>全面屏木</span>
+                                <span>教育电视</span>
+                                <span>OEED电视</span>
+                                <span>智慧屏</span>
+                                <span>4k超清屏</span>
+                                <span>55英寸</span>
+                                <span>65英寸</span>
+                                <span>电视配件</span>
+    
+                            </div>
+                            <div class="navl_1_2_2">
+                                <li>电视 ></li>
+                                <span>超薄电视</span>
+                                <span>全面屏木</span>
+                                <span>全面屏木</span>
+                                <span>教育电视</span>
+                                <span>OEED电视</span>
+                                <span>智慧屏</span>
+                                <span>4k超清屏</span>
+                                <span>55英寸</span>
+                                <span>65英寸</span>
+                                <span>电视配件</span>
+    
+                            </div>
+                            <div class="navl_1_2_2">
+                                <li>电视 ></li>
+                                <span>超薄电视</span>
+                                <span>全面屏木</span>
+                                <span>全面屏木</span>
+                                <span>教育电视</span>
+                                <span>OEED电视</span>
+                                <span>智慧屏</span>
+                                <span>4k超清屏</span>
+                                <span>55英寸</span>
+                                <span>65英寸</span>
+                                <span>电视配件</span>
+    
+                            </div>
+                            <div class="navl_1_2_2">
+                                <li>电视 ></li>
+                                <span>超薄电视</span>
+                                <span>全面屏木</span>
+                                <span>全面屏木</span>
+                                <span>教育电视</span>
+                                <span>OEED电视</span>
+                                <span>智慧屏</span>
+                                <span>4k超清屏</span>
+                                <span>55英寸</span>
+                                <span>65英寸</span>
+                                <span>电视配件</span>
+    
+                            </div>
+                            <div class="navl_1_2_2">
+                                <li>电视 ></li>
+                                <span>超薄电视</span>
+                                <span>全面屏木</span>
+                                <span>全面屏木</span>
+                                <span>教育电视</span>
+                                <span>OEED电视</span>
+                                <span>智慧屏</span>
+                                <span>4k超清屏</span>
+                                <span>55英寸</span>
+                                <span>65英寸</span>
+                                <span>电视配件</span>
+    
+                            </div>
+                            <div class="navl_1_2_2">
+                                <li>电视 ></li>
+                                <span>超薄电视</span>
+                                <span>全面屏木</span>
+                                <span>全面屏木</span>
+                                <span>教育电视</span>
+                                <span>OEED电视</span>
+                                <span>智慧屏</span>
+                                <span>4k超清屏</span>
+                                <span>55英寸</span>
+                                <span>65英寸</span>
+                                <span>电视配件</span>
+    
+                            </div>
+                            <div class="navl_1_2_2">
+                                <li>电视 ></li>
+                                <span>超薄电视</span>
+                                <span>全面屏木</span>
+                                <span>全面屏木</span>
+                                <span>教育电视</span>
+                                <span>OEED电视</span>
+                                <span>智慧屏</span>
+                                <span>4k超清屏</span>
+                                <span>55英寸</span>
+                                <span>65英寸</span>
+                                <span>电视配件</span>
+    
+                            </div>
+                            <div class="navl_1_2_2">
+                                <li>电视 ></li>
+                                <span>超薄电视</span>
+                                <span>全面屏木</span>
+                                <span>全面屏木</span>
+                                <span>教育电视</span>
+                                <span>OEED电视</span>
+                                <span>智慧屏</span>
+                                <span>4k超清屏</span>
+                                <span>55英寸</span>
+                                <span>65英寸</span>
+                                <span>电视配件</span>
+    
+                            </div>
+    
+    
+    
+                        </div>
+    
+                        <div class="navl_1_3">
+                            <img src="../img/nav_1.jpg" alt="">
+                        </div>
+    
+                    </div>
+                </p>
+               
+            </div>
+            <div class="navl_1">
+                <p>手机/运营商/数码</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>电脑/办公</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>家具/家居/家装/厨具</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>男装/女装/冬装/内衣</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>美妆/个人清洁/宠物</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>女鞋/箱包/钟表/珠宝</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="navl_1">
+                <p>男鞋/运动/户外</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>房产/汽车/汽车用品</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>母婴/玩具乐器</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>食品/酒类/生鲜/特产</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>艺术/礼品鲜花/浓汁</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>医药保健/计生情趣</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>图书/文娱/教育</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="navl_1">
+                <p>机票/酒店/旅游/生活</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>理财/众筹/白条/保险</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="navl_1">
+                <p>安装/维修/情节/二手</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navl_1">
+                <p>工业品</p>
+                <div class="navl_1_1">
+
+                    <div class="navl_1_2">
+
+                        <div class="navl_1_2_1">
+                            <li>加点管 ></li>
+                            <li>家电专卖 ></li>
+                            <li>加点服务 ></li>
+                            <li>企业采购 ></li>
+                            <li>商用家电 ></li>
+                            <li>以旧换新 ></li>
+                        </div>
+
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+                        <div class="navl_1_2_2">
+                            <li>电视 ></li>
+                            <span>超薄电视</span>
+                            <span>全面屏木</span>
+                            <span>全面屏木</span>
+                            <span>教育电视</span>
+                            <span>OEED电视</span>
+                            <span>智慧屏</span>
+                            <span>4k超清屏</span>
+                            <span>55英寸</span>
+                            <span>65英寸</span>
+                            <span>电视配件</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="navl_1_3">
+                        <img src="../img/nav_1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+        <!-- 中间的轮播 -->
+
+        <div class="navC">
+            <div class="navC_1">
+            <div id="container">
+                <a class="item" href="#"><img src="../img/dalunbo1.jpg" /></a>
+                <a class="item" href="#"><img src="../img/dalunbo2.jpg" /></a>
+                <a class="item" href="#"><img src="../img/dalunbo3.jpg" /></a>
+                <a class="item" href="#"><img src="../img/dalunbo4.jpg" /></a>
+                <a class="item" href="#"><img src="../img/dalunbo5.jpg" /></a>
+                <a class="item" href="#"><img src="../img/dalunbo6.jpg" /></a>
+                <a class="item" href="#"><img src="../img/dalunbo7.jpg" /></a>
+
+                <div class="btn prev"> < </div>
+                 <div class="btn next"> > </div>
+
+                        <ul id="tabs">
+                            <li class="tab active"></li>
+                            <li class="tab"></li>
+                            <li class="tab"></li>
+                            <li class="tab"></li>
+                            <li class="tab"></li>
+                            <li class="tab"></li>
+                        </ul>
+
+                </div>
+            </div>
+
+                <div class="navC_2">
+                    <img src="../img/xiaolunbo.jpg" alt="">
+                </div>
+
+            </div>
+
+
+        <!-- 右侧的 -->
+        <div class="navR">
+            <!-- log登入 -->
+             <div class="navR_log">
+                 <div class="navR_log_1">
+                   <div class="navR_log_1_1">   
+                 <img src="../img/Nav-log.jpg" alt="">
+                </div>
+                 <div class="navR_log_1_2">
+                 <h4>Hi~欢迎逛京东</h4>
+                 <p class="p">
+                     <a href="http://localhost:8080/index/Dr.html">登入</a>|
+                     <a href="http://localhost:8080/index/Zc.html">注册</a>
+                 </p>
+                </div>
+
+                </div>
+                
+                <div class="navR_log_2">
+                    <p><a href="http://localhost:8080/index/Dr.html">新人福利</a></p>
+                    <p><a href="http://localhost:8080/index/Zc.html">plus会员</a></p>
+                </div>
+
+
+             </div>
+              
+            <!-- 京东快报 -->
+            <div class="navR_text">
+                  <div class="navR_text_1">
+                     <h3>京东快报</h3>
+                     <p>更多 ></p>
+                  </div>
+
+                  <div class="navR_text_2">
+                      <div class="text1">热评</div>
+                      <div class="text2">主子吃的好似禅寺管...</div>
+                  </div>
+                  <div class="navR_text_2">
+                    <div class="text1">热评</div>
+                    <div class="text2">主子吃的好似禅寺管...</div>
+                </div>
+                <div class="navR_text_2">
+                    <div class="text1">热评</div>
+                    <div class="text2">主子吃的好似禅寺管...</div>
+                </div>
+                <div class="navR_text_2">
+                    <div class="text1">热评</div>
+                    <div class="text2">主子吃的好似禅寺管...</div>
+                </div>
+              
+
+
+            </div>    
+        
+           <!-- 小图标 -->
+            <div class="navR_tu">
+               <ul class="tutu">
+                   <li>
+                      <p class="glyphicon glyphicon-erase"></p>
+                      <p>手机</p>
+                       
+                   </li>
+                   <li>
+                       <p class="glyphicon glyphicon-plane"></p>
+                       <p>机票</p>
+                   </li>   
+                    <li>
+                        <p class="glyphicon glyphicon-equalizer"></p>
+                        <p>酒店</p>
+                    </li>
+               </ul>
+               <ul class="tutu">
+                <li>
+                   <p class="glyphicon glyphicon-object-align-vertical" style="color: aqua;"></p>
+                   <p>加油</p>
+                    
+                </li>
+                <li>
+                    <p class="glyphicon glyphicon-qrcode" style="color: aqua;"></p>
+                    <p>游戏</p>
+                </li>   
+                 <li>
+                     <p class="glyphicon glyphicon-bed"></p>
+                     <p>火车</p>
+                 </li>
+            </ul>
+            <ul class="tutu">
+                <li>
+                   <p class="glyphicon glyphicon-credit-card"></p>
+                   <p>众筹</p>
+                    
+                </li>
+                <li>
+                    <p class="glyphicon glyphicon-floppy-saved" style="color: aqua;"></p>
+                    <p>理财</p>
+                </li>   
+                 <li>
+                     <p class="glyphicon glyphicon-send"></p>
+                     <p>白条</p>
+                 </li>
+            </ul>
+            <ul class="tutu">
+                <li>
+                   <p class="glyphicon glyphicon-erase" style="color: aqua;"></p>
+                   <p>电影</p>
+                    
+                </li>
+                <li>
+                    <p class="glyphicon glyphicon-plane"></p>
+                    <p>企业</p>
+                </li>   
+                 <li>
+                     <p class="glyphicon glyphicon-equalizer" style="color: aqua;"></p>
+                     <p>礼品</p>
+                 </li>
+            </ul>
+
+            </div>
+
+
+
+          </div>
+            
+            
+
+
+
+    </nav>
+ 
+     <!--  空白 -->
+    <div class="kong"></div>
+
+     <!--京东秒杀 轮播  浮动窗 -->
+     <div class="Ml">
+         <!-- 京东秒杀 -->
+         <div class="Ms">
+             <div class="Ms_box">
+              <h3>京东秒杀</h3>
+              <span class="glyphicon glyphicon-flash"></span> 
+              <p class="Dj">12:00点场 倒计时</p>
+              <div class="Ms_1"></div>
+              <div class="Ms_2">:</div>
+              <div class="Ms_3"></div>
+              <div class="Ms_4">:</div>
+              <div class="Ms_5"></div>
+            </div>
+         </div>
+
+         <!-- 大轮播 -->
+         <div class="daLb">
+          
+            <div id="container1">
+                <a class="item1" href="#">
+                    <div class="DaLb_1">
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_1.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_2.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_1.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_2.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="item1" href="#">
+                    <div class="DaLb_1">
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_2.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_1.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_3.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_1.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+                    </div>              
+                </a>
+                <a class="item1" href="#">
+                    <div class="DaLb_1">
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_1.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_2.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_2.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+
+                        <div class="DaLb_2">
+                            <img src="../img/Sy_DaLb_1.jpg" alt="">
+                            <span>加白盘子碗套装北欧餐具套</span>
+                            <div class="DaLb_3">
+                                <p>￥89.00</p>
+                                <p>￥139.00</p>
+                            </div>
+                        </div>
+                    </div>              
+                </a>
+            
+                <div class="btn1 prev1"><</div>
+              <div class="btn1 next1">></div>
+            
+            </div>
+
+     </div>
+
+       <!-- 小轮播 -->
+     
+       <div class="XlLb">
+        <div id="container2">
+          
+            <div class="item2">
+                <img src="../img/Sy_Xl_1.jpg" alt="">
+                <span>百变厨房换新心机</span>
+                <div class="Xian">限量秒杀低至39元</div>
+                <div class="Xl">品类秒杀》</div>
+            </div>
+            <div class="item2">
+                <img src="../img/dalunbo3.jpg" alt="">
+                <span>你想要的这里都有</span>
+                <div class="Xian">赶紧抢购只需88元</div>
+                <div class="Xl">种子秒杀》</div>
+            </div>
+      
+         
+      
+           <ul id="tabs2">
+             <li class="tab2 active2"></li>
+             <li class="tab2"></li>
+            
+           </ul>
+   </div>
+       </div>
+         
+          
+  <!-- 右侧浮动窗 -->
+  <div class="Fdc">
+    <ul>
+        <li>
+            <p>京东</p>
+            <p>秒杀</p>
+        </li>
+        <li>
+           <p>特色</p>
+           <p>优选</p>
+       </li>
+       <li>
+           <p>频道</p>
+           <p>广场</p>
+       </li>
+       <li>
+           <p>为你</p>
+           <p>推荐</p>
+       </li>
+       <li>
+           <p class="glyphicon glyphicon-comment"></p>
+           <p>秒杀</p>
+       </li>
+       <li>
+           <p class="glyphicon glyphicon-tag"></p>
+           <p>秒杀</p>
+       </li>
+    </ul>
+ </div>
+ 
+
+
+
+      </div>
+         
+     
+     <!-- 空白 -->  
+    <div class="kong1"></div>
+
+    <!-- 每日特价  品牌闪购-->
+     <div class="TjSg">
+          
+          <!-- 特价 -->
+          <div class="Tj">
+
+               <div class="Tj_left">
+                   <div class="Tj_left_1">
+                       <p>每日特价</p>
+                       <span class="
+                        glyphicon glyphicon-ok-circle"></span>
+                   </div>
+                   <div class="Tj_left_2">
+                        <div class="Tj_left_2_1">
+                            175天最低价
+                        </div>
+                        <img src="../img/Sy_Tj_1.jpg" alt="">
+                        <h4>品牌口红小样不易掉色</h4>
+                        <p>￥9.9 <mark>￥32</mark></p>
+                        <h5>已抢<mark>353</mark>件</h5>
+                   </div>
+               </div>
+                
+               <div class="Tj_right">
+
+                  <ul>
+                      <li>精选</li>
+                      <li>美食</li>
+                      <li>百货</li>
+                      <li>个护</li>
+                      <li>预告</li>
+
+                  </ul>
+                    
+                   <div class="Tj_right_1">
+                      
+                      <div class="Tj_right_2">
+                          <img src="../img/Sy_Tj_2.jpg" alt="">
+
+                        <div class="Tj_right_3">
+                            <p>乐锦寂寞放生土司面包</p>
+                          
+                            <h3>￥16.8</h3>
+                            <h4>￥29.8</h4>
+                            <h5>已抢<mark>240</mark>件</h5>
+                            
+                        </div>
+
+                      </div>
+                      <div class="Tj_right_2">
+                        <img src="../img/Sy_Tj_2.jpg" alt="">
+
+                      <div class="Tj_right_3">
+                          <p>乐锦寂寞放生土司面包</p>
+                        
+                          <h3>￥16.8</h3>
+                          <h4>￥29.8</h4>
+                          <h5>已抢<mark>240</mark>件</h5>
+                          
+                      </div>
+
+                    </div>
+                    <div class="Tj_right_2">
+                        <img src="../img/Sy_Tj_2.jpg" alt="">
+
+                      <div class="Tj_right_3">
+                          <p>乐锦寂寞放生土司面包</p>
+                        
+                          <h3>￥16.8</h3>
+                          <h4>￥29.8</h4>
+                          <h5>已抢<mark>240</mark>件</h5>
+                          
+                      </div>
+
+                    </div>
+                    <div class="Tj_right_2">
+                        <img src="../img/Sy_Tj_2.jpg" alt="">
+
+                      <div class="Tj_right_3">
+                          <p>乐锦寂寞放生土司面包</p>
+                        
+                          <h3>￥16.8</h3>
+                          <h4>￥29.8</h4>
+                          <h5>已抢<mark>240</mark>件</h5>
+                          
+                      </div>
+
+                    </div>
+
+
+                   </div> 
+                 
+                   <div class="Tj_right_6">
+                      
+                    <div class="Tj_right_2">
+                        <img src="../img/Sy_Tj_3.jpg" alt="">
+
+                      <div class="Tj_right_3">
+                          <p>运动耳机入耳式重低音县空</p>
+                        
+                          <h3>￥9.9</h3>
+                          <h4>￥19.9</h4>
+                          <h5>已抢<mark>161</mark>件</h5>
+                          
+                      </div>
+
+                    </div>
+                   
+                    <div class="Tj_right_2">
+                        <img src="../img/Sy_Tj_3.jpg" alt="">
+
+                      <div class="Tj_right_3">
+                          <p>运动耳机入耳式重低音县空</p>
+                        
+                          <h3>￥9.9</h3>
+                          <h4>￥19.9</h4>
+                          <h5>已抢<mark>161</mark>件</h5>
+                          
+                      </div>
+
+                    </div>
+                    <div class="Tj_right_2">
+                        <img src="../img/Sy_Tj_3.jpg" alt="">
+
+                      <div class="Tj_right_3">
+                          <p>运动耳机入耳式重低音县空</p>
+                        
+                          <h3>￥9.9</h3>
+                          <h4>￥19.9</h4>
+                          <h5>已抢<mark>161</mark>件</h5>
+                          
+                      </div>
+
+                    </div>
+                    <div class="Tj_right_2">
+                        <img src="../img/Sy_Tj_3.jpg" alt="">
+
+                      <div class="Tj_right_3">
+                          <p>运动耳机入耳式重低音县空</p>
+                        
+                          <h3>￥9.9</h3>
+                          <h4>￥19.9</h4>
+                          <h5>已抢<mark>161</mark>件</h5>
+                          
+                      </div>
+
+                    </div>
+
+                 </div> 
+
+               </div>
+
+          </div>
+          
+          <!-- 品牌闪购 -->
+          <div class="Sg">
+                
+             <div class="Sg_left">
+
+                <div class="Sg_left_1">
+                    <p>品牌闪购</p>
+                    <span class=" glyphicon glyphicon-ok-circle"></span>
+                </div> 
+                  
+                  <div class="Sg_left_2">
+                      <img src="../img/Sy_Sg_1.jpg" alt="">
+                      <div class="Sg_left_3"></div>
+                  </div> 
+                 
+             </div>
+             
+              <div class="Sg_right">
+                  
+                <div class="Sg_right_1">
+                    <img src="../img/Sy_Sg_2.jpg" alt="">
+                    <p>潮宏即国庆专场</p>
+                     <div class="Sg_right_2"></div>    
+                </div>
+                <div class="Sg_right_1">
+                    <img src="../img/Sy_Sg_2.jpg" alt="">
+                    <p>潮宏即国庆专场</p>
+                     <div class="Sg_right_2"></div>    
+                </div>
+                <div class="Sg_right_1">
+                    <img src="../img/Sy_Sg_2.jpg" alt="">
+                    <p>潮宏即国庆专场</p>
+                     <div class="Sg_right_2"></div>    
+                </div>
+                <div class="Sg_right_1">
+                    <img src="../img/Sy_Sg_2.jpg" alt="">
+                    <p>潮宏即国庆专场</p>
+                     <div class="Sg_right_2"></div>    
+                </div>
+                <div class="Sg_right_1">
+                    <img src="../img/Sy_Sg_2.jpg" alt="">
+                    <p>潮宏即国庆专场</p>
+                     <div class="Sg_right_2"></div>    
+                </div><div class="Sg_right_1">
+                    <img src="../img/Sy_Sg_2.jpg" alt="">
+                    <p>潮宏即国庆专场</p>
+                     <div class="Sg_right_2"></div>    
+                </div>
+                
+
+
+              </div>
+            
+
+          </div>
+
+
+     </div>
+
+      <!-- kong白 -->
+     <div class="kong1"></div>
+
+     
+     <!-- 发现好货 -->
+     <div class="Fx">
+         <div class="Fx_left">
+             <a href="https://fxhh.jd.com/"><img src="../img/Sy_Fxhh_1.jpg" alt="">
+             <div class="Fx_left_1"></div></a>
+         </div>
+
+         <!--发现好货 轮播 -->
+         <div class="Fx_right">
+              
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-swiper-autoplay="2000">
+                    <p>黑沙 120HZ全面屏 游...</p>
+                    <img src="../img/Sy_Fxhh_2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide" data-swiper-autoplay="2000">  <p>黑沙 120HZ全面屏 游...</p>
+                        <img src="../img/Sy_Fxhh_3.jpg" alt=""></div>
+                    <div class="swiper-slide" data-swiper-autoplay="2000">  <p>黑沙 120HZ全面屏 游...</p>
+                        <img src="../img/Sy_Fxhh_2.jpg" alt=""></div>
+                    <div class="swiper-slide" data-swiper-autoplay="2000">  <p>黑沙 120HZ全面屏 游...</p>
+                        <img src="../img/Sy_Fxhh_2.jpg" alt=""></div>
+                    <div class="swiper-slide" data-swiper-autoplay="2000">  <p>黑沙 120HZ全面屏 游...</p>
+                        <img src="../img/Sy_Fxhh_2.jpg" alt=""></div>
+                    <div class="swiper-slide" data-swiper-autoplay="2000">  <p>黑沙 120HZ全面屏 游...</p>
+                        <img src="../img/Sy_Fxhh_2.jpg" alt=""></div>
+                    <div class="swiper-slide" data-swiper-autoplay="2000">  <p>黑沙 120HZ全面屏 游...</p>
+                        <img src="../img/Sy_Fxhh_2.jpg" alt=""></div>
+                    <div class="swiper-slide" data-swiper-autoplay="2000">  <p>黑沙 120HZ全面屏 游...</p>
+                        <img src="../img/Sy_Fxhh_2.jpg" alt=""></div>
+                    <div class="swiper-slide" data-swiper-autoplay="2000">  <p>黑沙 120HZ全面屏 游...</p>
+                        <img src="../img/Sy_Fxhh_2.jpg" alt=""></div>
+                    <div class="swiper-slide" data-swiper-autoplay="2000">   <p>黑沙 120HZ全面屏 游...</p>
+                        <img src="../img/Sy_Fxhh_2.jpg" alt=""></div>
+                </div>
+                <!-- Add Scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+         </div>
+         
+     </div>
+
+      <!-- kong白 -->
+     <div class="kong1"></div>
+
+     <!-- 新品首发-->
+
+      <div class="XpSf">
+           
+        <!--  新品首发 轮播 -->
+        <div class="Xp_left">
+
+              <div class="Xp_left_1">
+                <p>新品首发</p>
+               <a href="https://new.jd.com/"> <div class="jian">></div>   </a> 
+              </div>
+              <!-- 轮播 -->
+              <div class="Xp_left_2">
+
+              <div class="swiper-container">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-swiper-autoplay="3000">
+                        <img src="../img/Sy_Xp_1.jpg" alt="">
+                        <p>三星 Galaxy Z FLip (SM-F70...)</p>
+                        <h5>三星折叠屏手机</h5>
+                        <h3>￥11999.00</h3>
+                    </div> 
+                    <div class="swiper-slide" data-swiper-autoplay="3000">
+                         <img src="../img/Sy_Xp_1.jpg" alt="">
+                        <p>三星 Galaxy Z FLip (SM-F70...)</p>
+                        <h5>三星折叠屏手机</h5>
+                        <h3>￥11999.00</h3></div>
+                    <div class="swiper-slide" data-swiper-autoplay="3000">
+                        <img src="../img/Sy_Xp_1.jpg" alt="">
+                        <p>三星 Galaxy Z FLip (SM-F70...)</p>
+                        <h5>三星折叠屏手机</h5>
+                        <h3>￥11999.00</h3>
+                    </div>
+                    <div class="swiper-slide" data-swiper-autoplay="3000">
+                        <img src="../img/Sy_Xp_1.jpg" alt="">
+                        <p>三星 Galaxy Z FLip (SM-F70...)</p>
+                        <h5>三星折叠屏手机</h5>
+                        <h3>￥11999.00</h3>
+                    </div>
+                    <div class="swiper-slide" data-swiper-autoplay="3000">
+                        <img src="../img/Sy_Xp_1.jpg" alt="">
+                        <p>三星 Galaxy Z FLip (SM-F70...)</p>
+                        <h5>三星折叠屏手机</h5>
+                        <h3>￥11999.00</h3>
+                    </div>
+                    <div class="swiper-slide" data-swiper-autoplay="3000">
+                        <img src="../img/Sy_Xp_1.jpg" alt="">
+                        <p>三星 Galaxy Z FLip (SM-F70...)</p>
+                        <h5>三星折叠屏手机</h5>
+                        <h3>￥11999.00</h3>
+                    </div>
+                    <div class="swiper-slide" data-swiper-autoplay="3000">
+                        <img src="../img/Sy_Xp_1.jpg" alt="">
+                        <p>三星 Galaxy Z FLip (SM-F70...)</p>
+                        <h5>三星折叠屏手机</h5>
+                        <h3>￥11999.00</h3>
+                    </div>
+                    <div class="swiper-slide" data-swiper-autoplay="3000">
+                        <img src="../img/Sy_Xp_1.jpg" alt="">
+                        <p>三星 Galaxy Z FLip (SM-F70...)</p>
+                        <h5>三星折叠屏手机</h5>
+                        <h3>￥11999.00</h3>
+                    </div>
+                    <div class="swiper-slide" data-swiper-autoplay="3000">
+                        <img src="../img/Sy_Xp_1.jpg" alt="">
+                        <p>三星 Galaxy Z FLip (SM-F70...)</p>
+                        <h5>三星折叠屏手机</h5>
+                        <h3>￥11999.00</h3>
+                    </div>
+                    <div class="swiper-slide" data-swiper-autoplay="3000">
+                        <img src="../img/Sy_Xp_1.jpg" alt="">
+                        <p>三星 Galaxy Z FLip (SM-F70...)</p>
+                        <h5>三星折叠屏手机</h5>
+                        <h3>￥11999.00</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+         <!-- 排行榜 --> 
+         <div class="Paihang">
+
+            <div class="Xp_left_1">
+                <p>排行榜</p>
+               <a href="https://new.jd.com/"> <div class="jian">></div>   </a> 
+              </div>
+
+              <div class="Ph_daohang">
+                  <li>手机</li>
+                  <li>面部护肤</li>
+                  <li>男装</li>
+                  <li>时尚女鞋</li>
+              </div>
+               
+              <div class="Paihang_bottom1">
+
+                  <div class="top1">
+                
+                    <img class="top1_1" src="../img/Sy_Paihang_1.jpg" alt="">
+                  
+              
+                    <img class="top1_2" src="../img/Sy_paihang_2.jpg" alt="">
+       
+                <a href="https://top.jd.com/?cateId=1342&itemId=72197124002">
+                    美迪惠尔(Mediheal)水润保湿面膜10片水
+                </a>
+                </div>
+                <div class="top1">
+                
+                    <img class="top1_1" src="../img/Sy_Paihang_1.jpg" alt="">
+                  
+              
+                    <img class="top1_2" src="../img/Sy_paihang_2.jpg" alt="">
+       
+                <a href="https://top.jd.com/?cateId=1342&itemId=72197124002">
+                    美迪惠尔(Mediheal)水润保湿面膜10片水
+                </a>
+                </div>    <div class="top1">
+                
+                    <img class="top1_1" src="../img/Sy_Paihang_1.jpg" alt="">
+                  
+              
+                    <img class="top1_2" src="../img/Sy_paihang_2.jpg" alt="">
+       
+                <a href="https://top.jd.com">
+                    美迪惠尔(Mediheal)水润保湿面膜10片水
+                </a>
+                </div>
+            </div>
+            
+            <div class="Paihang_bottom2">
+
+                <div class="top1">
+              
+                  <img class="top1_1" src="../img/Sy_Paihang_4.jpg" alt="">
+                
+            
+                  <img class="top1_2" src="../img/Sy_paihang_3.jpg" alt="">
+     
+              <a href="https://top.jd.com/">
+                 韩国进口(Dr.Jart+)水动力活力水润蓝
+              </a>
+              </div>
+              <div class="top1">
+              
+                  <img class="top1_1" src="../img/Sy_Paihang_4.jpg" alt="">
+                
+            
+                  <img class="top1_2" src="../img/Sy_paihang_3.jpg" alt="">
+     
+              <a href="https://top.jd.com/">
+                韩国进口(Dr.Jart+)水动力活力水润蓝
+              </a>
+              </div>    <div class="top1">
+              
+                  <img class="top1_1" src="../img/Sy_Paihang_4.jpg" alt="">
+                
+            
+                  <img class="top1_2" src="../img/Sy_paihang_3.jpg" alt="">
+     
+              <a href="https://top.jd.com/">
+                韩国进口(Dr.Jart+)水动力活力水润蓝
+              </a>
+              </div>
+          </div>
+
+         </div>
+        
+         <div class="Paihang">
+
+            <div class="Xp_left_1">
+                <p>排行榜</p>
+               <a href="https://new.jd.com/"> <div class="jian">></div>   </a> 
+              </div>
+
+              <div class="Ph_daohang">
+                  <li>手机</li>
+                  <li>面部护肤</li>
+                  <li>男装</li>
+                  <li>时尚女鞋</li>
+              </div>
+               
+              <div class="Paihang_bottom1">
+
+                  <div class="top1">
+                
+                    <img class="top1_1" src="../img/Sy_Paihang_1.jpg" alt="">
+                  
+              
+                    <img class="top1_2" src="../img/Sy_paihang_2.jpg" alt="">
+       
+                <a href="https://top.jd.com/?cateId=1342&itemId=72197124002">
+                    美迪惠尔(Mediheal)水润保湿面膜10片水
+                </a>
+                </div>
+                <div class="top1">
+                
+                    <img class="top1_1" src="../img/Sy_Paihang_1.jpg" alt="">
+                  
+              
+                    <img class="top1_2" src="../img/Sy_paihang_2.jpg" alt="">
+       
+                <a href="https://top.jd.com/?cateId=1342&itemId=72197124002">
+                    美迪惠尔(Mediheal)水润保湿面膜10片水
+                </a>
+                </div>    <div class="top1">
+                
+                    <img class="top1_1" src="../img/Sy_Paihang_1.jpg" alt="">
+                  
+              
+                    <img class="top1_2" src="../img/Sy_paihang_2.jpg" alt="">
+       
+                <a href="https://top.jd.com">
+                    美迪惠尔(Mediheal)水润保湿面膜10片水
+                </a>
+                </div>
+            </div>
+            
+            <div class="Paihang_bottom2">
+
+                <div class="top1">
+              
+                  <img class="top1_1" src="../img/Sy_Paihang_4.jpg" alt="">
+                
+            
+                  <img class="top1_2" src="../img/Sy_paihang_3.jpg" alt="">
+     
+              <a href="https://top.jd.com/">
+                 韩国进口(Dr.Jart+)水动力活力水润蓝
+              </a>
+              </div>
+              <div class="top1">
+              
+                  <img class="top1_1" src="../img/Sy_Paihang_4.jpg" alt="">
+                
+            
+                  <img class="top1_2" src="../img/Sy_paihang_3.jpg" alt="">
+     
+              <a href="https://top.jd.com/">
+                韩国进口(Dr.Jart+)水动力活力水润蓝
+              </a>
+              </div>    <div class="top1">
+              
+                  <img class="top1_1" src="../img/Sy_Paihang_4.jpg" alt="">
+                
+            
+                  <img class="top1_2" src="../img/Sy_paihang_3.jpg" alt="">
+     
+              <a href="https://top.jd.com/">
+                韩国进口(Dr.Jart+)水动力活力水润蓝
+              </a>
+              </div>
+          </div>
+
+         </div>
+
+         <div class="Paihang">
+
+            <div class="Xp_left_1">
+                <p>排行榜</p>
+               <a href="https://new.jd.com/"> <div class="jian">></div>   </a> 
+              </div>
+
+              <div class="Ph_daohang">
+                  <li>手机</li>
+                  <li>面部护肤</li>
+                  <li>男装</li>
+                  <li>时尚女鞋</li>
+              </div>
+               
+              <div class="Paihang_bottom1">
+
+                  <div class="top1">
+                
+                    <img class="top1_1" src="../img/Sy_Paihang_1.jpg" alt="">
+                  
+              
+                    <img class="top1_2" src="../img/Sy_paihang_2.jpg" alt="">
+       
+                <a href="https://top.jd.com/?cateId=1342&itemId=72197124002">
+                    美迪惠尔(Mediheal)水润保湿面膜10片水
+                </a>
+                </div>
+                <div class="top1">
+                
+                    <img class="top1_1" src="../img/Sy_Paihang_1.jpg" alt="">
+                  
+              
+                    <img class="top1_2" src="../img/Sy_paihang_2.jpg" alt="">
+       
+                <a href="https://top.jd.com/?cateId=1342&itemId=72197124002">
+                    美迪惠尔(Mediheal)水润保湿面膜10片水
+                </a>
+                </div>    <div class="top1">
+                
+                    <img class="top1_1" src="../img/Sy_Paihang_1.jpg" alt="">
+                  
+              
+                    <img class="top1_2" src="../img/Sy_paihang_2.jpg" alt="">
+       
+                <a href="https://top.jd.com">
+                    美迪惠尔(Mediheal)水润保湿面膜10片水
+                </a>
+                </div>
+            </div>
+            
+            <div class="Paihang_bottom2">
+
+                <div class="top1">
+              
+                  <img class="top1_1" src="../img/Sy_Paihang_4.jpg" alt="">
+                
+            
+                  <img class="top1_2" src="../img/Sy_paihang_3.jpg" alt="">
+     
+              <a href="https://top.jd.com/">
+                 韩国进口(Dr.Jart+)水动力活力水润蓝
+              </a>
+              </div>
+              <div class="top1">
+              
+                  <img class="top1_1" src="../img/Sy_Paihang_4.jpg" alt="">
+                
+            
+                  <img class="top1_2" src="../img/Sy_paihang_3.jpg" alt="">
+     
+              <a href="https://top.jd.com/">
+                韩国进口(Dr.Jart+)水动力活力水润蓝
+              </a>
+              </div>    <div class="top1">
+              
+                  <img class="top1_1" src="../img/Sy_Paihang_4.jpg" alt="">
+                
+            
+                  <img class="top1_2" src="../img/Sy_paihang_3.jpg" alt="">
+     
+              <a href="https://top.jd.com/">
+                韩国进口(Dr.Jart+)水动力活力水润蓝
+              </a>
+              </div>
+          </div>
+
+         </div>
+  
+
+      </div>
+
+
+
+     
+  
+
+</body>
+
+</html>
+<script>
+    /* 发现好货 轮播 */
+     var swiper = new Swiper('.swiper-container', {
+        scrollbar: '.swiper-scrollbar',
+        scrollbarHide: true,
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        loop:true,
+        autoplay: {
+        delay: 1000,//1秒切换一次
+               },
+    });
+
+</script>

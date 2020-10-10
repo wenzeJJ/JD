@@ -187,3 +187,98 @@ $(document).ready(function () {
       .removeClass("active2");
   }
 });
+
+/* 特价 切换*/
+$(function(){
+
+   $(".Tj_right").find("li").eq(0).click(function(){
+     $(".Tj_right_1").css({
+       display:"block"
+     })      
+     $(".Tj_right_6").css({
+      display:"none"
+    })    
+   $(this).css({
+      borderBottom:"3px sloid red",
+      color:"red"
+    }).siblings().css({
+      color:"gray"
+    })    
+   })
+   
+   $(".Tj_right").find("li").eq(1).click(function(){
+    $(".Tj_right_6").css({
+      display:"block"
+    })      
+    $(".Tj_right_1").css({
+     display:"none"
+   })     
+   $(this).css({
+    borderBottom:"3px sloid red",
+    color:"red"
+  }).siblings().css({
+    color:"gray"
+  }) 
+  })
+
+})
+
+ 
+/* 新品首发  排行榜切换 */
+$(function(){
+
+$(".Ph_daohang").find("li").eq(0).click(function(){
+
+ $(this).css({
+   color:"#fff",
+   background:"red"
+ }).siblings().css({
+   color:"gray",
+   background:"#f4f4f4"
+ })
+ $(".Paihang_bottom1").css({
+   display:"block"
+ })
+ $(".Paihang_bottom2").css({
+  display:"none"
+})
+
+})
+
+$(".Ph_daohang").find("li").eq(1).click(function(){
+
+  $(this).css({
+    color:"#fff",
+    background:"red"
+  }).siblings().css({
+    color:"gray",
+    background:"#f4f4f4"
+  })
+  $(".Paihang_bottom2").css({
+    display:"block"
+  })
+  $(".Paihang_bottom1").css({
+   display:"none"
+ })
+ 
+ })
+
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
