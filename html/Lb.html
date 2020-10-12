@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品列表</title>
+    <script src="../js/jquery-1.11.0.js"></script>
+    <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/resetlihai.css">
+    <link rel="stylesheet" href="../fonts/glyphicons-halflings-regular.svg">
+    <link rel="stylesheet" href="../less/Lb.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/Lb.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="l">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <p>河南</p>
+        </div>
+        <div class="r">
+            <li>
+                <span><a href="http://127.0.0.1:5500/html/Dr.html">你好，请登入</a></span>
+                <p><a href="http://127.0.0.1:5500/html/Zc.html">免费注册</a></p>
+
+            </li>|
+
+            <li>我的订单</li>|
+
+            <li>我的京东
+                <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <!-- 二级菜单 -->
+
+                <ul>
+                    <li>
+                        <span>处理订单</span>
+                        <span>消息</span>
+                    </li>
+                    <li>
+                        <p>返修退换</p>
+                        <p>我的回答</p>
+                    </li>
+                    <li>
+                        <p>降价商品</p>
+                        <p>我得关注</p>
+                    </li>
+                    <li>
+                        <p>我得京豆 </p>
+                        <p>我得优惠卷</p>
+                    </li>
+                    <li>
+                        <p>我得白条</p>
+                        <p>我的理财</p>
+                    </li>
+                </ul>
+            </li>|
+
+            <li>京东会员</li>|
+
+            <li>企业采购
+                <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <!-- 二级菜单 -->
+
+                <ul>
+                    <li>
+                        <span>企业购</span>
+                        <span>商用场景管</span>
+                    </li>
+                    <li>
+                        <p>工业品 </p>
+                        <p>丰可多商城</p>
+                    </li>
+                    <li>
+                        <p>礼品卡</p>
+                        <p>微信企业购</p>
+                    </li>
+
+                </ul>
+            </li>|
+
+            <li>客户服务
+                <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <!-- 二级菜单 -->
+                <ul>
+                    <div class="rl1">
+                        <h4>客户</h4>
+
+                        <li>
+                            <p>帮助中心</p>
+                            <p>售后服务</p>
+                        </li>
+                        <li>
+                            <p>在线服务</p>
+                            <p>意见建议</p>
+                        </li>
+                        <li>
+                            <p>电话服务</p>
+                            <p>客服邮箱</p>
+                        </li>
+                        <li>
+                            <p>景荣咨询</p>
+                            <p>全球受客服</p>
+                        </li>
+                        <li>
+                            <p>
+                                企业服务
+                            </p>
+                        </li>
+
+
+                    </div>
+                    <div class="rl2">
+                        <h4>商户</h4>
+
+                        <li>
+                            <p>合作招商</p>
+                            <p>成长中心</p>
+                        </li>
+                        <li>
+                            <p>商家后台</p>
+                            <p>静脉工作台</p>
+                        </li>
+                        <li>
+                            <p>商家帮助</p>
+                            <p>规则平台</p>
+
+                        </li>
+
+
+                    </div>
+
+                </ul>
+            </li>|
+
+            <li>网站导航
+                <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <ul>
+                    <div class="rl3_1">
+                        <h5>特色主题</h5>
+                        <li>
+                            <p>新品首发</p>
+                            <p>京东金融</p>
+                            <p>全球首</p>
+                            <p>国际站</p>
+                        </li>
+                        <li>
+                            <p>新品首发</p>
+                            <p>京东金融</p>
+                            <p>全球首</p>
+                            <p>国际站</p>
+                        </li>
+                        <li>
+                            <p>新品首发</p>
+                            <p>京东金融</p>
+                            <p>全球首</p>
+                            <p>国际站</p>
+                        </li>
+                        <li>
+                            <p>新品首发</p>
+                            <p>京东金融</p>
+                            <p>全球首</p>
+                            <p>国际站</p>
+                        </li>
+                        <li>
+                            <p>新品首发</p>
+                            <p>京东金融</p>
+                            <p>全球首</p>
+
+                        </li>
+                    </div>
+                    <div class="rl3_2"></div>
+                    <div class="rl3_3">
+                        <h5>行业频道</h5>
+                        <li>
+                            <p>手机</p>
+                            <p>只能数码</p>
+                            <p>玩3c</p>
+                        </li>
+                        <li>
+                            <p>手机</p>
+                            <p>只能数码</p>
+                            <p>玩3c</p>
+                        </li>
+                        <li>
+                            <p>手机</p>
+                            <p>只能数码</p>
+                            <p>玩3c</p>
+                        </li>
+                        <li>
+                            <p>手机</p>
+                            <p>只能数码</p>
+                            <p>玩3c</p>
+                        </li>
+                        <li>
+                            <p>手机</p>
+                            <p>只能数码</p>
+                            <p>玩3c</p>
+                        </li>
+                    </div>
+                    <div class="rl3_4"></div>
+                    <div class="rl3_5">
+                        <h5>生活服务</h5>
+                        <li>
+                            <p>京东众筹</p>
+                            <p>白条</p>
+                            <p>京东金融</p>
+                        </li>
+                        <li>
+                            <p>京东众筹</p>
+                            <p>白条</p>
+                            <p>京东金融</p>
+                        </li>
+                        <li>
+                            <p>京东众筹</p>
+                            <p>白条</p>
+                            <p>京东金融</p>
+                        </li>
+                        <li>
+                            <p>京东众筹</p>
+                            <p>白条</p>
+                            <p>京东金融</p>
+                        </li>
+                        <li>
+                            <p>京东众筹</p>
+                            <p>白条</p>
+
+                        </li>
+                    </div>
+                    <div class="rl3_6"></div>
+                    <div class="rl3_7">
+                        <h5>更多精选</h5>
+                        <li>
+                            <p>合作招商</p>
+                            <p>京东通信</p>
+                            <p>京东e卡</p>
+                        </li>
+                        <li>
+                            <p>合作招商</p>
+                            <p>京东通信</p>
+                            <p>京东e卡</p>
+                        </li>
+                        <li>
+                            <p>合作招商</p>
+                            <p>京东通信</p>
+                            <p>京东e卡</p>
+                        </li>
+                        <li>
+                            <p>合作招商</p>
+
+                        </li>
+                    </div>
+                </ul>
+
+            </li>|
+            <li>手机京东</li>
+
+        </div>
+    </header>
+
+     
+   <!-- 搜索框 -->
+   <div class="Xuanfu">
+           
+    <div class="Xf_left">
+        <img src="../img/Sy_xuanfu.jpg" alt="">
+    </div>
+     
+    <!-- sousuo -->
+    <div class="Xf_center">
+        <div class="Xf_center_1">
+            <input type="text" placeholder="小家电超级品类日 三件8折">
+            <p >
+                <span class="glyphicon glyphicon-search"></span>
+            </p>
+        </div>
+    </div>
+
+    <!-- 购物车 -->
+    <div class="Gouwuche">
+        <span class="
+        glyphicon glyphicon-shopping-cart"></span>
+        <p>我的购物车</p>
+    </div>
+
+</div>
+
+
+<!--  -->
+
+
+</body>
+</html>

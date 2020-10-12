@@ -1,0 +1,327 @@
+
+/* 头部 */
+header {
+    width: 1465px;
+    height: 36px;
+    background: #e3e4e5;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  
+    .l {
+      width: 70px;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        color: red;
+      }
+    }
+    // 右侧导航栏
+    .r {
+      width: 900px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      li:first-child {
+        display: flex;
+        p {
+          color: red;
+          margin-left: 10px;
+        }
+      }
+      //  我的京东二级菜单
+      li:nth-child(3) {
+        height: 36px;
+        line-height: 36px;
+        position: relative;
+        ul {
+          width: 200px;
+          height: 150px;
+          
+          position: absolute;
+          top: 36px;
+          display: none;
+          li {
+            display: flex;
+            height: 20px;
+            line-height: 20px;
+            align-items: center;
+           
+            span {
+              margin-right: 40px;
+              color: black;
+            }
+            p {
+              margin-right: 40px;
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+      li:nth-child(3):hover {
+        background: white;
+        color: red;
+       
+        ul {
+          border: red  1px solid;
+          background: white;
+          display: block;
+        }
+      }
+  
+      // 企业采购二级菜单
+      li:nth-child(5) {
+        height: 36px;
+        line-height: 36px;
+        position: relative;
+  
+        ul {
+          width: 150px;
+          height: 100px;
+          position: absolute;
+          top: 36px;
+          display: none;
+          li {
+            display: flex;
+            height: 20px;
+            line-height: 20px;
+            align-items: center;
+            color: gray;
+            span {
+              margin-right: 20px;
+            }
+            p {
+              margin-right: 20px;
+              color: gray;
+            }
+          }
+        }
+      }
+      li:nth-child(5):hover {
+        ul {
+          display: block;
+          li:hover {
+            span {
+              color: red;
+            }
+            p {
+              color: red;
+            }
+          }
+        }
+      }
+  
+      //客户服务二级菜单
+      li:nth-child(6) {
+        height: 36px;
+        line-height: 36px;
+        position: relative;
+        ul {
+          width: 200px;
+          height: 350px;
+          position: absolute;
+          top: 36px;
+          display: none;
+          .rl1 {
+            width: 200px;
+            li {
+              height: 30px;
+              line-height: 30px;
+              display: flex;
+              p {
+                margin-left: 20px;
+              }
+            }
+          }
+          .rl2 {
+            width: 200px;
+            height: 100px;
+            li {
+              height: 30px;
+              line-height: 30px;
+              display: flex;
+              p {
+                margin-left: 20px;
+              }
+            }
+          }
+        }
+      }
+      li:nth-child(6):hover {
+        ul {
+          display: block;
+          background-color: red;
+          border: rosybrown;
+        }
+      }
+  
+      //网站导航的二级菜单
+      li:nth-child(7) {
+        height: 36px;
+        line-height: 36px;
+        position: relative;
+        ul {
+          width: 1400px;
+          height: 200px;
+         
+          display: flex;
+          justify-content: space-around;
+          display: none;
+          position: absolute;
+          top: 36px;
+          right: -75px;
+         
+          // opacity: 0;
+          .rl3_1 {
+            li {
+              height: 30px;
+              line-height: 30px;
+              display: flex;
+  
+              p {
+                margin-right: 30px;
+              }
+            }
+          }
+          .rl3_2 {
+            height: 150px;
+            width: 1px;
+            border-left: black 1px solid;
+            margin-top: 20px;
+          }
+  
+          .rl3_3 {
+            li {
+              height: 30px;
+              line-height: 30px;
+              display: flex;
+              margin-right: 20px;
+              p {
+                margin-right: 30px;
+              }
+            }
+          }
+          .rl3_4 {
+            height: 150px;
+            width: 1px;
+            border-left: black 1px solid;
+            margin-top: 20px;
+          }
+  
+          .rl3_5 {
+            li {
+              height: 30px;
+              line-height: 30px;
+              display: flex;
+              margin-right: 20px;
+              p {
+                margin-right: 30px;
+              }
+            }
+          }
+  
+          .rl3_6 {
+            height: 150px;
+            width: 1px;
+            border-left: black 1px solid;
+            margin-top: 20px;
+          }
+          .rl3_7 {
+            li {
+              height: 30px;
+              line-height: 30px;
+              display: flex;
+              margin-right: 20px;
+              p {
+                margin-left: 30px;
+              }
+            }
+          }
+        }
+      }
+        li:nth-child(7):hover{
+            ul{
+                display:block;
+            }
+        }
+    }
+  }
+  
+
+/* 悬浮窗 */
+.Xuanfu{
+    width: 1465px;
+    height: 62px;
+    margin: 0 auto;
+    border-bottom: red 2px solid;
+     
+    /* log */
+    .Xf_left{
+      width: 124px;
+     float: left;
+      margin-top: 9px;
+       margin-left: 23px;
+   
+     
+  }
+  
+     /* 搜索框 */
+     .Xf_center{
+       width: 672px;
+       height: 48px;
+       border: 2px #a13d3b solid;
+       margin-top: 10px;
+       margin-left: 177px;
+       float: left;
+       .Xf_center_1{
+         input{
+         float: left;
+         height: 48px;
+         width: 580px;
+         outline: none;
+         text-decoration: 3rem;
+       }
+       p{
+         float: right;
+         width: 72px;
+         height: 46px;
+         text-align: center;
+         line-height: 46px;
+         font-size: 22px;
+         background-color: red;
+         color: #fff;
+       }
+      }
+     } 
+   
+  
+  
+     /* 购物车 */
+     .Gouwuche{
+       float: left;
+       width: 162px;
+       height: 42px;
+       border: 1px solid gray;
+       margin-top: 10px;
+       margin-left: 23px;
+  
+       span{
+         font-size: 20px;
+         color: red;
+         float: left;
+         margin-top: 10px;
+         margin-left: 28px;
+       }
+       p{
+         font-size: 14px;
+         color: red;
+         float: left;
+         margin-top: 14px;
+         margin-left: 16px;
+       }
+     }
+  
+  }
+  

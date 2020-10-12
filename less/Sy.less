@@ -1,3 +1,85 @@
+
+body{
+  position: relative;
+}
+/* 悬浮窗 */
+.Xuanfu{
+  width: 1465px;
+  height: 62px;
+  margin: 0 auto;
+  border-bottom: red 2px solid;
+  position: fixed;
+  top: 0;
+  left: 41px;
+  display: none;
+  /* log */
+  .Xf_left{
+    width: 124px;
+    float: left;
+    margin-top: 9px;
+     margin-left: 23px;
+ 
+   
+}
+
+   /* 搜索框 */
+   .Xf_center{
+     width: 672px;
+     height: 48px;
+     border: 2px #a13d3b solid;
+     margin-top: 10px;
+     margin-left: 177px;
+     float: left;
+     .Xf_center_1{
+       input{
+       float: left;
+       height: 48px;
+       width: 580px;
+       outline: none;
+       text-decoration: 3rem;
+     }
+     p{
+       float: right;
+       width: 72px;
+       height: 46px;
+       text-align: center;
+       line-height: 46px;
+       font-size: 22px;
+       background-color: red;
+       color: #fff;
+     }
+    }
+   } 
+ 
+
+
+   /* 购物车 */
+   .Gouwuche{
+     float: left;
+     width: 162px;
+     height: 42px;
+     border: 1px solid gray;
+     margin-top: 10px;
+     margin-left: 23px;
+
+     span{
+       font-size: 20px;
+       color: red;
+       float: left;
+       margin-top: 10px;
+       margin-left: 28px;
+     }
+     p{
+       font-size: 14px;
+       color: red;
+       float: left;
+       margin-top: 14px;
+       margin-left: 16px;
+     }
+   }
+
+}
+
 /* 头部 */
 header {
   width: 1465px;
@@ -249,6 +331,7 @@ header {
 }
 
 
+
  /* 搜索框 */
 .SS {
   width: 1465px;
@@ -374,6 +457,9 @@ header {
       }
 
   }
+
+
+
 
 /* 导航栏 */
 nav{
@@ -700,6 +786,8 @@ nav{
 
 
     }
+
+
   
   /* 空白 */  
 .kong{
@@ -708,6 +796,8 @@ nav{
   background:#f4f4f4;
   margin: 0 auto;
 }
+
+
 
  /* 京东秒杀 轮播  浮动窗  */   
 .Ml{
@@ -934,11 +1024,13 @@ nav{
    .Fdc{
      width: 70px;
      height:427px ;
+     display: none;
      position: absolute;
      top: 0;
      left: 1445px;
      background-color: cadetblue;
      padding: 0 19px;
+    
      ul{
        li{
          width: 34px;
@@ -963,6 +1055,8 @@ nav{
 
 
 }
+
+
 
 /* 空白 */
 .kong1{
@@ -1269,6 +1363,9 @@ nav{
 
 }
 
+
+
+
 /* 发现好货 */
 .Fx{
  width: 1465px;
@@ -1335,6 +1432,9 @@ nav{
 
 
 }
+
+
+
 
 
 /* 新品首发 */
@@ -1549,6 +1649,503 @@ background: #f4f4f4;
 
 
 
+
+/* 为你推荐 */
+.Weini{
+  width: 1465px;
+  height: 1000px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+   position: relative;
+  .Wn_top{
+    width: 100%;
+    height: 102px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 102px;
+  }
+
+  /* 导航 */
+  .Wn_daohang{    
+     width: 1465px;
+     height: 72px;
+     position: absolute;
+     left: 0;
+     top: 102px;
+     background: #fff;
+     li:nth-child(1){
+       margin-left: 70px;
+       
+       p{
+         background-color: red;
+         color: #fff;
+       }
+     }
+     li:nth-child(6){
+       border: none;
+     }
+     li{
+       width: 221px;
+       height: 56px;
+       padding: 0 56px;
+       border-right: 1px solid gray;
+       float: left;
+       margin-top: 7px;
+       cursor: pointer;
+       p{
+         width: 100px;
+         height: 30px;
+         border-radius: 20px;
+         text-align: center;
+         line-height: 30px;
+         font-weight: 900;
+        font-size: 20px;
+       }
+       span{
+         display: inline-block;
+        width: 100px;
+        height: 30px;
+       color: rgba(127,120,125,0.8);
+        text-align: center;
+        line-height: 30px;
+      
+       font-size: 17px;
+       }
+
+       
+       
+      
+     }
+     li:hover{
+         
+      p{
+        background-color: red;
+        color: #fff;
+      }
+      span{
+        color: red;
+     }
+     }
+
+  }
+
+  
+  /* 找相似 */
+ .Wn_zhaoxiangsi1{
+   margin-top: 72px;
+   width: 1465px;
+   height: 817px;
+   
+   .Xiangsi{
+    width: 282px;
+   height: 396px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+     .Xiangsi_1{
+     width: 282px;
+     height: 396px;
+     float: left;
+     background-color: #fff;
+     
+      img{
+        margin-top: 36px;
+        margin-left: 47px;
+      }
+      p{
+        margin-top: 55px;
+        font-size: 17px;
+        color: gray;
+        text-align: center;
+      }
+     .shui{
+      font-size: 17px;
+      color: gray;
+      text-align: center;
+      margin-top: 10px;
+     }
+    
+      span{
+        display: inline-block;
+         font-size:18px ;
+         color: red;
+         margin-left: 22px;
+         margin-top: 15px;
+      }
+      .Xiangsi_2{
+        width: 282px;
+        height: 396px;
+        position: absolute;
+        top: 396px;
+        left: 0;
+        background-color: black;
+        opacity: .3;
+        display: none;
+    
+        p{
+          width: 100px;
+          height: 30px;
+          font-size: 20px;
+          text-align: center;
+          line-height: 30px;
+          border-radius: 20px;
+          color: blanchedalmond;
+          background-color:darkgoldenrod;
+          margin-top: 330px;
+         margin-left: 90px;
+        }
+        p:hover{
+           background: red;
+           color: #fff;
+        }
+       }
+   }
+
+ 
+   
+     .Xiangsi_1:hover{
+          .Xiangsi_2{
+            display: block;
+            top: 0;
+          }
+     }
+  }
+ }
+
+ .Wn_zhaoxiangsi2{
+  margin-top: 72px;
+  width: 1465px;
+  height: 817px;
+  display: none;
+  .Xiangsi{
+   width: 282px;
+  height: 396px;
+   float: left;
+   margin-top: 10px;
+   margin-left: 10px;
+   position: relative;
+    .Xiangsi_1{
+    width: 282px;
+    height: 396px;
+    float: left;
+    background-color: #fff;
+    
+     img{
+       margin-top: 36px;
+       margin-left: 47px;
+     }
+     p{
+       margin-top: 55px;
+       font-size: 17px;
+       color: gray;
+       text-align: center;
+     }
+    .shui{
+     font-size: 17px;
+     color: gray;
+     text-align: center;
+     margin-top: 10px;
+    }
+   
+     span{
+       display: inline-block;
+        font-size:18px ;
+        color: red;
+        margin-left: 22px;
+        margin-top: 15px;
+     }
+     .Xiangsi_2{
+       width: 282px;
+       height: 396px;
+       position: absolute;
+       top: 396px;
+       left: 0;
+       background-color: black;
+       opacity: .3;
+       display: none;
+   
+       p{
+         width: 100px;
+         height: 30px;
+         font-size: 20px;
+         text-align: center;
+         line-height: 30px;
+         border-radius: 20px;
+         color: blanchedalmond;
+         background-color:darkgoldenrod;
+         margin-top: 330px;
+        margin-left: 90px;
+       }
+       p:hover{
+          background: red;
+          color: #fff;
+       }
+      }
+  }
+
+
+  
+    .Xiangsi_1:hover{
+         .Xiangsi_2{
+           display: block;
+           top: 0;
+         }
+    }
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* footer */
+footer{
+  width: 1465px;
+  height: 700px;
+  margin: 0 auto;
+  /* fo_top */
+   .fo_top{
+     width: 1465px;
+     height: 127px;
+     border-bottom: 1px solid gray;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     li{
+       width: 260px;
+       height: 50px;
+       display: flex;
+    
+       justify-content: center;
+       align-items: center;
+       span{
+         display:inline-block;
+         width: 48px;
+         height: 48px;
+         border: 2px solid red;
+         color: red;
+         text-align: center;
+         line-height: 48px;
+         font-size:25px ;
+         font-weight: 900;
+         border-radius: 100%;
+       }
+       p{
+         margin-left:12px ;
+         font-size:20px ;
+         font-weight: 900;
+       }
+     }
+   }  
+
+   /* fo_center */
+   .fo_center{
+     height: 245px;
+     width: 1465px;
+     display: flex;
+     justify-content: space-between;
+     
+     border-bottom: 1px solid gray;
+     ul{
+      //  height: 186px;
+      margin-top: 28px;
+       p{
+         font-size: 16px;
+         font-weight: 900;
+       }
+       li{
+         margin-top: 10px;
+         font-size:14px ;
+         color: gray;
+         a:hover{
+           color: red;
+         }
+       }
+      
+     }
+   }
+   
+   /* fo_bottom */
+   .fo_bottom{
+     width: 1465px;
+     height: 323px;
+
+     /* 1 */
+     .fo_bo_box1{
+       height: 58px;
+       display: flex;
+        align-items: center;
+       justify-content: center;
+         .fo_bo_1{
+          
+           width: 1335px;
+           display: flex;
+           justify-content: space-between;
+             li{
+               font-size: 14px;
+               a:hover{
+                 color: red;
+               }
+             }
+         }    
+     
+     
+      }
+
+     /* 2 */
+     .fo_bo_box2{
+       display: flex;
+       justify-content: center; 
+       height: 28px;
+       .fo_bo_2{
+         width: 974px;
+         display: flex;
+         justify-content: space-between;
+          li{
+            color: gray;
+            font-size: 12px;
+            a{
+              color: gray;
+            }
+            a:hover{
+              color: red;
+            }
+          }
+       }
+     }
+
+    /* 3 */
+    .fo_bo_box3{
+      height: 26px;
+      display: flex;
+      justify-content: center;
+      .fo_bo3{
+        width:1058px;
+        display: flex;
+        justify-content: space-between;
+        li{
+          color: gray;
+          a{
+            color: gray;
+          }
+          a:hover{
+            color: red;
+          }
+        }
+      }
+    }
+
+    
+    /* 4 */
+    .fo_bo_box4{
+      height: 26px;
+      display: flex;
+      justify-content: center;
+      .fo_bo4{
+        width:987px ;
+        display: flex;
+        justify-content: space-between;
+        li{
+          color: gray;
+          a{
+            color: gray;
+          }
+          a:hover{
+            color: red;
+          }
+        }
+       
+      }
+    }
+
+     
+     /* 5 */
+    .fo_bo_box5{
+      height: 26px;
+      display: flex;
+      justify-content: center;
+      .fo_bo5{
+        width:774px ;
+        display: flex;
+        justify-content: space-between;
+        a{
+          width: 154px;
+          color: gray;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          p{
+            font-size: 14px;
+
+          }
+          p:hover{
+            color: red;
+          }
+        }
+      }
+    }
+
+      
+    /* 6 */
+    .fo_bo_box6{
+      height: 64px;
+      display: flex;
+      justify-content: center;
+      .fo_bo6{
+        width: 264px;
+        display: flex;
+        justify-content: space-between;
+        li{
+          color: gray;
+          a{color: gray;}
+          a:hover{color: red;}
+        }
+      }
+    }
+
+    /* 7 */
+    .fo_bo_box7{
+      display: flex;
+      justify-content: center;
+      .fo_bo7{
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+
+      }
+    }
+
+
+
+
+   }
+
+
+
+
+}
 
 
 

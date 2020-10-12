@@ -4,8 +4,8 @@ const connect = require("gulp-connect");
 const sourcemaps = require("gulp-sourcemaps");
 
 gulp.task("html",done=>{
-     gulp.src("index/*.html")
-          .pipe(gulp.dest("dist/index"))
+     gulp.src("html/*.html")
+          .pipe(gulp.dest("dist/html"))
           .pipe(connect.reload())
      
     done();

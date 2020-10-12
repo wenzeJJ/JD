@@ -267,10 +267,61 @@ $(".Ph_daohang").find("li").eq(1).click(function(){
 })
 
 
+/* 找相似 */
+ $(function(){
+
+   $(".Wn_daohang ul").find("li").eq(0).click(function(){
+       
+      $(".Wn_zhaoxiangsi1").css({
+        display:"block"
+      })
+      $(".Wn_zhaoxiangsi2").css({
+        display:"none"
+      })
+     /*   $(this).find("p").css({
+         background:"red",
+         color:"#fff"
+       }).siblings().find("p").click(function(){
+         console.log("ok");
+       }) */
+
+   }).find("p").css({
+    background:"red",
+    color:"#fff"
+   })
+
+   $(".Wn_daohang ul").find("li").eq(1).click(function(){
+       
+    $(".Wn_zhaoxiangsi2").css({
+      display:"block"
+    })
+    $(".Wn_zhaoxiangsi1").css({
+      display:"none"
+    })
+
+    /* $(this).find("p").css({
+      background:"red",
+      color:"#fff"
+    }).siblings().css({
+      background:"#fff"
+    
+    }) */
+ }).find("p").css({
+  background:"red",
+  color:"#fff"
+ }).siblings().css({
+   background:"#fff",
+   color:"black"
+ })
 
 
+}) 
 
 
+/* 楼梯 */
+$(function(){
+  
+})
 
 
 
