@@ -214,7 +214,7 @@ header .r li:nth-child(7):hover ul {
 /* 悬浮窗 */
 .Xuanfu {
   width: 1465px;
-  height: 62px;
+  height: 200px;
   margin: 0 auto;
   border-bottom: red 2px solid;
   /* log */
@@ -224,14 +224,14 @@ header .r li:nth-child(7):hover ul {
 .Xuanfu .Xf_left {
   width: 124px;
   float: left;
-  margin-top: 9px;
+  margin-top: 50px;
   margin-left: 23px;
 }
 .Xuanfu .Xf_center {
   width: 672px;
   height: 48px;
   border: 2px #a13d3b solid;
-  margin-top: 10px;
+  margin-top: 55px;
   margin-left: 177px;
   float: left;
 }
@@ -257,7 +257,7 @@ header .r li:nth-child(7):hover ul {
   width: 162px;
   height: 42px;
   border: 1px solid gray;
-  margin-top: 10px;
+  margin-top: 55px;
   margin-left: 23px;
 }
 .Xuanfu .Gouwuche span {
@@ -274,103 +274,134 @@ header .r li:nth-child(7):hover ul {
   margin-top: 14px;
   margin-left: 16px;
 }
-/* 商品已成功加入购物车 */
-.Shangpin {
+/* 商品结算 */
+.SpJs {
   width: 1465px;
-  height: 178px;
   margin: 0 auto;
-  background: #f4f4f4;
+  background: darkkhaki;
+  /* 全部商品 */
+  /* 结算 全选 单选 */
+  /* 商品展示 */
 }
-.Shangpin .Sp_left {
-  width: 500px;
-  height: 178px;
-  overflow: hidden;
+.SpJs .Js_top {
+  height: 50px;
+}
+.SpJs .Js_top .Js_top_1 {
   float: left;
-}
-.Shangpin .Sp_left .Sp_left_1 {
-  width: 282px ;
-  height: 33px;
-  margin-top: 30px;
-}
-.Shangpin .Sp_left .Sp_left_1 span {
-  float: left;
-  font-size: 33px;
-  color: green;
-}
-.Shangpin .Sp_left .Sp_left_1 p {
-  float: right;
-  color: green;
-  font-size: 23px;
-}
-.Shangpin .Sp_right {
-  width: 500px;
-  height: 178px;
-  float: right;
-}
-.Shangpin .Sp_right .Sp_right_1 {
-  margin-top: 110px;
-  float: left;
-  width: 210px;
-  height: 40px;
-  background: #fff;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 900;
   color: red;
-  text-align: center;
-  line-height: 40px;
-  font-size: 19px;
-  cursor: pointer;
+  border-bottom: 1px solid red;
 }
-.Shangpin .Sp_right .Sp_right_2 {
-  margin-top: 110px;
+.SpJs .Js_top .Js_top_1 span {
+  margin-left: 10px;
+}
+.SpJs .Js_top .Js_top_2 {
   float: right;
-  width: 210px;
-  height: 40px;
-  background: red;
-  color: #fff;
-  text-align: center;
-  line-height: 40px;
-  font-size: 19px;
-  cursor: pointer;
+  height: 50px;
+  font-size: 20px;
 }
-/* 商品列表 */
-.SpLb {
-  width: 1465px;
-  height: 520px;
-  margin: 0 auto;
-  border-bottom: gray 1px solid;
-  overflow: hidden;
-}
-.SpLb ul {
-  margin-top: 10px;
-  width: 260px;
-  height: 240px;
-  text-align: center;
+.SpJs .Js_top .Js_top_2 p:nth-child(1) {
   float: left;
-  margin-left: 25px;
+  line-height: 50px;
 }
-.SpLb ul img {
-  margin-left: 70px;
-}
-.SpLb ul span {
-  display: inline-block;
-  margin-top: 10px;
-  font-size: 14px;
-}
-.SpLb ul p {
-  margin-top: 10px;
-  font-size: 15px;
-  color: red;
-}
-.SpLb ul li {
-  width: 100px;
+.SpJs .Js_top .Js_top_2 p:nth-child(2) {
+  float: left;
+  width: 150px;
   height: 30px;
+  border: 1px solid gray;
   text-align: center;
   line-height: 30px;
-  border: 1px solid gray;
-  margin-left: 80px;
-  margin-top: 8px;
+  margin-top: 9px;
+}
+.SpJs .Js_center {
+  height: 40px;
+  background: #f4f4f4;
+  overflow: hidden;
+}
+.SpJs .Js_center ul {
+  width: 1465px;
+  height: 20px;
+  margin-top: 10px;
+}
+.SpJs .Js_center ul li {
+  float: left;
+  margin-right: 100px;
+  font-size: 15px;
   cursor: pointer;
 }
-.SpLb ul li:hover {
+.SpJs .Js_center ul li input {
+  float: left;
+  margin-top: 5px;
+}
+.SpJs .Js_center ul li p {
+  margin-left: 5px;
+  float: left;
+}
+.SpJs .Js_center ul li:nth-child(3) {
+  margin-left: 400px;
+}
+.SpJs .Js_center ul li:nth-child(5) {
+  margin-left: 200px;
+}
+.SpJs .Js_center_1 {
+  height: 150px;
+}
+.SpJs .Js_center_1 div {
+  margin-right: 70px;
+  margin-top: 10px;
+  float: left;
+  cursor: pointer;
+}
+.SpJs .Js_center_1 .Shangpin .checkbox {
+  float: left;
+  margin: 0 10px;
+}
+.SpJs .Js_center_1 .Shangpin img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.SpJs .Js_center_1 .Shangpin p {
+  margin-left: 5px;
+  float: left;
+  font-size: 20px;
+  width: 350px;
+}
+.SpJs .Js_center_1 .price {
+  margin-left: 110px;
+  font-size: 15px;
+}
+.SpJs .Js_center_1 .number span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: gray 1px solid;
+  text-align: center;
+  line-height: 20px;
+}
+.SpJs .Js_center_1 .number input {
+  width: 50px;
+  height: 20px;
+  outline: none;
+  border: solid 1px gray;
+}
+.SpJs .Js_center_1 .number p {
+  color: gray;
+  margin-left: 38px;
+}
+.SpJs .Js_center_1 .Zongjia {
+  font-size: 15px;
+  margin-left: 170px;
+}
+.SpJs .Js_center_1 .caozuo {
+  font-size: 15px;
+  margin-left: 15px;
+}
+.SpJs .Js_center_1 .caozuo:hover {
   color: red;
 }
 /* footer */

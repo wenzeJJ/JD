@@ -51,6 +51,14 @@ gulp.task("less",done=>{
    done();
 })
 
+gulp.task("json",done=>{
+    gulp.src("json/*.json")
+         .pipe(gulp.dest("dist/json"))
+         .pipe(connect.reload())
+    
+   done();
+})
+
 gulp.task("sass",done=>{
     gulp.src("sass/*.scss")
          .pipe(sourcemaps.init())
@@ -73,16 +81,17 @@ gulp.task("server",done=>{
     done();
 })
 
-gulp.task("build",gulp.series("html","sass","css","fonts","img","js","less"))
+gulp.task("build",gulp.series("html","sass","css","fonts","img","js","less","json"))
 
 gulp.task("watch",done=>{
-     gulp.watch("index/*.html",gulp.series("html"));
+     gulp.watch("html/*.html",gulp.series("html"));
      gulp.watch("sass/*.scss",gulp.series("sass"));
      gulp.watch("css/.css",gulp.series("css"));
      gulp.watch("fonts/**",gulp.series("fonts"));
      gulp.watch("img/**",gulp.series("img"));
      gulp.watch("js/*.js",gulp.series("js"));
      gulp.watch("less/**",gulp.series("less"));
+     gulp.watch("json/*.json",gulp.series("json"));
     done();
 })
 

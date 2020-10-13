@@ -251,7 +251,7 @@ header {
 /* 悬浮窗 */
 .Xuanfu{
     width: 1465px;
-    height: 200px;
+    height: 62px;
     margin: 0 auto;
     border-bottom: red 2px solid;
      
@@ -259,7 +259,7 @@ header {
     .Xf_left{
       width: 124px;
      float: left;
-      margin-top: 50px;
+      margin-top: 9px;
        margin-left: 23px;
    
      
@@ -270,7 +270,7 @@ header {
        width: 672px;
        height: 48px;
        border: 2px #a13d3b solid;
-       margin-top: 55px;
+       margin-top: 10px;
        margin-left: 177px;
        float: left;
        .Xf_center_1{
@@ -302,7 +302,7 @@ header {
        width: 162px;
        height: 42px;
        border: 1px solid gray;
-       margin-top: 55px;
+       margin-top: 10px;
        margin-left: 23px;
   
        span{
@@ -323,172 +323,181 @@ header {
   
   }
   
-/* 商品结算 */
-.SpJs{
-   
-    // height: 600px;
+
+
+
+/*  商品 导航*/  
+.Spdaohang{
     width: 1465px;
+    height: 40px;
     margin: 0 auto;
-   background: darkkhaki;
-    /* 全部商品 */
-    .Js_top{
-        height: 50px;
-        .Js_top_1{
-            float: left;
-            width: 150px;
-            height: 50px;
-            
-            line-height: 50px;
-            font-size: 20px;
-            font-weight: 900;
-            color: red;
-            border-bottom: 1px solid red;
-            span{
-                margin-left: 10px;
-            }
-        }
-       .Js_top_2{
-
-        float: right;
-        
-         height: 50px;
-         
-         font-size: 20px;
-          p:nth-child(1){
-              float: left;
-              line-height: 50px;
-          }
-          p:nth-child(2){
-              float: left;
-              width: 150px;
-              height: 30px;
-              border: 1px solid gray;
-               text-align: center;
-               line-height: 30px;
-               margin-top: 9px;
-          }
-
-
-       }
-
-
-    }
-   
-    /* 结算 全选 单选 */
- .Js_center{
-   height: 40px;
-   background: #f4f4f4;
- overflow: hidden;
-   ul{
-       width: 1465px;
-       height: 20px;
-       margin-top: 10px;
-     
-       li{
-           float: left;
-           margin-right: 100px;
-           font-size: 15px;
-           cursor: pointer;
-           input{
-               float: left;
-               margin-top: 5px;
-           }
-           p{
-               margin-left: 5px;
-               float: left;
-           }
-       }
-       li:nth-child(3){
-           margin-left: 400px;
-       }
-       li:nth-child(5){
-           margin-left: 200px;
-       }
-   }
- }
-
- 
-   /* 商品展示 */
-   .Js_center_1{
-     height: 150px;
-    div{
-        margin-right: 70px;
-        margin-top: 10px;
+    background-color: #f4f4f4;
+    .nav_left{
         float: left;
-        cursor: pointer;
-    }
-    
-    .Shangpin{
-   
-  
-       .checkbox{
-           float: left;
-           margin: 0 10px;
-       }
-        img{
+        width: 700px;
+        height: 40px;
+        li{
             float: left;
-            width: 100px;
-            height: 100px;
-
+            line-height: 40px;
+            margin-left: 10px;
+            font-size: 15px;
+            cursor: pointer;
         }
-        p{
-            margin-left: 5px;
-            float: left;
-            font-size: 20px;
-            width: 350px;
+        li:hover{
+            color: red;
         }
     }
-     
-    .price{
-       margin-left: 110px;
-        font-size: 15px;
-    }
-     
-    .number{
-        span{
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            border: gray 1px solid;
-            text-align: center;
-            line-height: 20px;
 
-        }
-        input{
-            width: 50px;
-            height: 20px;
-            outline: none;
-            border: solid 1px gray;
-
-        }
-        p{
-            color: gray;
-            margin-left: 38px;
-        }
-    }
-      
-    .Zongjia{
-        font-size: 15px;
-      margin-left: 170px;
-    }
-    
-    .caozuo{
-        font-size: 15px;
-        margin-left: 15px;
-    }
-    .caozuo:hover{
-        color: red;
-    }
-
-   }
+      .nav_right{
+          float: right;
+          height: 40px;
+          li{
+              float: left;
+              line-height: 40px;
+              font-size: 15px;
+              margin-right: 8px;
+              cursor: pointer;
+              mark{
+                  background-color: red;
+                  color: #fff;
+              }
+          }
+          li:nth-child(even):hover{
+            color: red;
+          }
+      }
 
 
 
-
-
- 
 }
 
+
+/* 商品详情 */
+.SpXq{
+    width: 1465px;
+    height: 500px;
+    margin: 0 auto;
+
+    /* 放大镜 */
+    .Xq_left{
+        width: 520px;
+        height: 500px;
+        float: left;
+        position: relative;
+       
+        /* 小图 */
+        .Xq_left_mall{
+            width: 300px;
+            height: 300px;
+            border: 1px gray solid;
+            position: absolute;
+            top:20px;
+            left: 100px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .Zhezhao{
+                width: 100px;
+                height: 100px;
+                background-color: hotpink;
+                opacity: .5;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+            }
+        }
+           /* 大图 */
+        .Xq_left_big{
+             width: 450px;
+             height: 450px;
+             border: 1px solid darkcyan;         
+             position: absolute;
+             top: 20px;
+             left: 402px;
+             overflow: hidden;
+             display: none;
+          img{
+              width: 1200px;
+              height: 1200px;
+              position: absolute;
+          }
+        }   
+
+          /* 小小图 */
+    .Xq_left_xiao{
+       
+        width: 300px;
+        height: 50px;
+        margin-top: 330px;
+        margin-left: 110px;
+        li{
+            float: left;
+            margin-left: 3px;
+         img{
+             width: 50px;
+             height: 50px;
+         }
+        }
+    }
+
+    }
+    
+
+   /* 介绍 */
+   .Xq_right{
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-left: 30px;
+    margin: 20px;
+    p{
+        font-size: 20px;
+    }
+    .Xq_right_1{
+        font-size: 20px;
+        margin-top: 20px;
+        color: red;
+
+    }
+    .Xq_right_2{
+        width: 400px;
+        height: 40px;
+       margin-top: 100px;
+       cursor: pointer;
+        span{
+            float: left;
+            height: 40px;
+            width: 20px;
+            border: 1px solid gray;
+           text-align: center;
+           line-height: 40px;
+        }
+        input{
+            width: 100px;
+            height: 40px;
+            float: left;
+            outline: none;
+            border: 1px solid gray;
+        }
+        li{
+            width: 140px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            float: left;
+            margin-left: 20px;
+            background-color: darkcyan;
+            color: #fff;
+        }
+    }  
+
+   }
+   
+  
+
+}
 
 
 
@@ -720,35 +729,6 @@ footer{
   
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
