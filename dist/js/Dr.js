@@ -59,6 +59,12 @@ $(function(){
               console.log(data);
               console.log(data.data.username);
               if(data.data.username==$(".Btn1 input").val()&&data.data.password==$(".Btn2 input").val()){
+                  localStorage.setItem("username",data.data.username);
+             
+                  localStorage.setItem("id",data.data.id);
+                   
+                //   localStorage.setItem("longin","1");
+                   
                   location.href="http://127.0.0.1:5500/html/Sy.html";
               }
           })

@@ -278,13 +278,6 @@ $(".Ph_daohang").find("li").eq(1).click(function(){
       $(".Wn_zhaoxiangsi2").css({
         display:"none"
       })
-     /*   $(this).find("p").css({
-         background:"red",
-         color:"#fff"
-       }).siblings().find("p").click(function(){
-         console.log("ok");
-       }) */
-
    }).find("p").css({
     background:"red",
     color:"#fff"
@@ -298,14 +291,6 @@ $(".Ph_daohang").find("li").eq(1).click(function(){
     $(".Wn_zhaoxiangsi1").css({
       display:"none"
     })
-
-    /* $(this).find("p").css({
-      background:"red",
-      color:"#fff"
-    }).siblings().css({
-      background:"#fff"
-    
-    }) */
  }).find("p").css({
   background:"red",
   color:"#fff"
@@ -318,13 +303,104 @@ $(".Ph_daohang").find("li").eq(1).click(function(){
 }) 
 
 
-/* 楼梯 */
+/* 京东秒杀 倒计时 */
 $(function(){
+   
+  var Starttime = new Date("2020/10/15 24:00");
+
+  setInterval(function(){
+    var nowtime = new Date();
+    var time = Starttime-nowtime;
+    var hour = parseInt(time/1000/60/60%24);
+    var minute = parseInt(time/1000/60%60);
+    var seconds = parseInt(time/1000%60);
+    $(".Ms_1").html(hour);
+    $(".Ms_3").html(minute);
+    $(".Ms_5").html(seconds);
+
+     
+
+
+  },1000)
   
+
+})
+
+
+/* 右侧楼梯 */
+$(function(){
+
+$(window).scroll(function(){
+
+var st = $(this).scrollTop();
+
+if(st>=700){
+  $(".Fdc").fadeIn();
+}else{
+  $(".Fdc").fadeOut();
+}
+/* 京东秒杀 */
+$(".Ml").each(function(){
+    if(st>=$(this).offset().top-$(this).outerHeight()/2){
+      $(".Fdc li").eq(0).addClass("hover").siblings().removeClass("hover");
+    }
+})
+})
+
+// $(".Fdc li:first").click(function(){
+//    $("html,body").stop().animate({
+//      scrollTop:$(".Ml").offset().top
+//    },500)
+//   //  $(this).addClass("hover").siblings().removeClass("hover");
+
+// })
+
+/* 每日特价 */
+// $(".TjSg").each(function(){
+//   if(st>=$(this).offset().top-$(this).outerHeight()/2){
+//     $(".Fdc li").eq(1).addClass("hover").siblings().removeClass("hover");
+//   }
+// })
+// })
+
+$(".Fdc li:first").click(function(){
+
+  $("html,body").stop().animate({
+    scrollTop:"750"
+  },500)
+})
+
+
+$(".Fdc li:last").click(function(){
+
+  $("html,body").stop().animate({
+    scrollTop:"0"
+  },500)
 })
 
 
 
+})
+
+
+
+/* 头部悬浮窗 */
+$(function(){
+
+$(window).scroll(function(){
+
+var st = $(this).scrollTop();
+
+if(st>=200){
+  $(".Xuanfu").fadeIn();
+}else{
+  $(".Xuanfu").fadeOut();
+}
+
+
+})
+
+})
 
 
 

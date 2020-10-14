@@ -1,7 +1,8 @@
 
-body{
-  position: relative;
-}
+// body{
+//   height: 100%;
+//   position: relative;
+// }
 /* 悬浮窗 */
 .Xuanfu{
   width: 1465px;
@@ -11,7 +12,9 @@ body{
   position: fixed;
   top: 0;
   left: 41px;
+  z-index: 3;
   display: none;
+  background: #fff;
   /* log */
   .Xf_left{
     width: 124px;
@@ -79,6 +82,47 @@ body{
    }
 
 }
+
+/* 右侧浮动窗 */
+.Fdc{
+  width: 40px;
+  height:485px ;
+//  display: none;
+  position: fixed;
+  top: 62px;
+  left: 1500px;
+  background-color: pink;
+   z-index: 3;
+ 
+  ul{
+    li{
+      width: 34px;
+      height: 55px;
+      border-bottom: 1px solid gray;
+      margin-top:14px ;
+      cursor: pointer;
+      p{
+        width: 34px;
+        height: 17px;
+        font-size:17px ;
+        text-align: center;
+        line-height: 17px;
+      }
+      p:nth-child(2){
+        margin-top: 11px;
+      }
+    }
+    li:hover{
+      color: #fff;
+      background-color: red;
+    }
+    li.hover{
+      color: #fff;
+      background-color: red;
+    }
+  }
+}
+
 
 /* 头部 */
 header {
@@ -842,6 +886,11 @@ nav{
          width: 36px;
          height: 38px;
          background: #363634;
+         text-align: center;
+         line-height: 38px;
+         font-size: 20px;
+         font-weight: 900;
+         color: #fff;
        }
        .Ms_2,.Ms_4{
          width: 24px;
@@ -1020,36 +1069,6 @@ nav{
 
    }
  
-   /* 右侧浮动窗 */
-   .Fdc{
-     width: 70px;
-     height:427px ;
-     display: none;
-     position: absolute;
-     top: 0;
-     left: 1445px;
-     background-color: cadetblue;
-     padding: 0 19px;
-    
-     ul{
-       li{
-         width: 34px;
-         height: 55px;
-         border-bottom: 1px solid gray;
-         margin-top:14px ;
-         p{
-           width: 34px;
-           height: 17px;
-           font-size:17px ;
-           text-align: center;
-           line-height: 17px;
-         }
-         p:nth-child(2  ){
-           margin-top: 11px;
-         }
-       }
-     }
-   }
    
 
 

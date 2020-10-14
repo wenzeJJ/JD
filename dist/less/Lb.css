@@ -277,9 +277,8 @@ header .r li:nth-child(7):hover ul {
 /* 商品已成功加入购物车 */
 .Shangpin {
   width: 1465px;
-  height: 178px;
   margin: 0 auto;
-  background: #f4f4f4;
+  background: salmons;
 }
 .Shangpin .Sp_left {
   width: 500px;
@@ -334,7 +333,6 @@ header .r li:nth-child(7):hover ul {
 /* 商品列表 */
 .SpLb {
   width: 1465px;
-  height: 520px;
   margin: 0 auto;
   border-bottom: gray 1px solid;
   overflow: hidden;
