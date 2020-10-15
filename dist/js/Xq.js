@@ -114,6 +114,7 @@ $(function(){
         console.log($(".Xq_right_2").find("span").eq(0));     
         console.log($(".Xq_right_2 input").val());
       
+        //点击加号的时候添加商品
         $(".Xq_right_2").find("span").eq(1).click(function(){
           
             // $.get(`http://jx.xuzhixiang.top/ap/api/add-product.php?uid=43302&pid=${pid}&pnum=1`)
@@ -141,7 +142,7 @@ $(function(){
         
         })
 
-
+        
         $(".Xq_right_2").find("span").eq(0).click(function(){
           
             // $.get(`http://jx.xuzhixiang.top/ap/api/add-product.php?uid=43302&pid=${pid}&pnum=1`)
